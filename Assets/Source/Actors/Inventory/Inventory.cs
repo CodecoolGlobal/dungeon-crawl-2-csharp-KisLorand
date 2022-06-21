@@ -17,9 +17,6 @@ namespace Assets.Source.Actors.Inventory
         public Inventory()
         {
             Items = new List<Item>();
-            Axe axe = new Axe();
-            Potion potion = new Potion();
-            Key key = new Key();
         }
         //Propeties
         public List<Item> Items { get; private set; }
@@ -45,8 +42,11 @@ namespace Assets.Source.Actors.Inventory
             return inventoryContent;
         }
 
-        public void RemoveItem()
+        public void RemoveItem(Item key)
         {
+
+            Items.Remove(key);
+
 
         }
     }
