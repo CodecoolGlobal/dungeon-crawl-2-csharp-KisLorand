@@ -8,6 +8,10 @@ namespace DungeonCrawl.Actors.Characters
         public int Health { get; private set; }
         public int Damage { get; private set; }
 
+        protected int _direction;
+        protected float _timer;
+        protected float _limit;
+
         public Character(int health, int damage)
         {
             Health = health;
