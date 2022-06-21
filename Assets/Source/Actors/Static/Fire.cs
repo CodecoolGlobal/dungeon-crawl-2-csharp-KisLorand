@@ -8,6 +8,7 @@ namespace DungeonCrawl.Actors.Static
 {
 	public class Fire : Actor
     {
+        private int _damage = 3;
         public override int DefaultSpriteId => 494;
         public override string DefaultName => "Fire";
 
@@ -17,10 +18,27 @@ namespace DungeonCrawl.Actors.Static
 
         public override bool OnCollision(Actor anotherActor)
         {
-            anotherActor.OnCollision(this);
+            if (anotherActor is Character)
+            {
+                Character anotherCharacter = (Character)anotherActor;
+                if (anotherCharacter is not Player)
+                {
+                    DoDamage(anotherCharacter);
+                }
+            }
             return true;
         }
 
+        private void DoDamage(Character anotherCharacter)
+        {
+            anotherCharacter.ApplyDamage(_damage);
+        }
 
+        protected override void OnUpdate(float deltaTime)
+        {
+            (int x, int y) playerPos = ActorManager.Singleton.GetPlayer().Position;
+            if (playerPos.x == this.Position.x && playerPos.y == this.Position.y)
+                DoDamage(ActorManager.Singleton.GetPlayer());
+        }
     }
 }
