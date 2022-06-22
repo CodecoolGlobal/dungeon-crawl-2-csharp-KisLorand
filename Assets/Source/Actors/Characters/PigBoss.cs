@@ -10,7 +10,10 @@ namespace DungeonCrawl.Actors.Characters
 		private const int HEALTH = 42;
 		private const int DAMAGE = 10;
 		private float HIT = 0;
+		private const int ATTACK_START = 900;
+		private const int ATTACK_WINDUP = 5;
 		private List<Fire> _effects;
+		private List<Wall> _walls;
 
 		public PigBoss() : base(HEALTH, DAMAGE)
 		{
@@ -22,13 +25,19 @@ namespace DungeonCrawl.Actors.Characters
 			(int x, int y) playerPos = ActorManager.Singleton.GetPlayer().Position;
 
 			List<(int x, int y)> firePositions = GetAdjPositions();
-			int ATTACK_START = 900;
 
 			if (HIT == ATTACK_START)
 			{
 				//windup
+				Wall wall;
+				for (int i = 0; i < firePositions.Count; i++)
+				{
+					wall = ActorManager.Singleton.Spawn<Wall>(firePositions[i]);
+					_walls.Add(wall);
+				}
+				//windup
 			}
-			else if (HIT == ATTACK_START + 5)
+			else if (HIT == ATTACK_START + ATTACK_WINDUP)
 			{
 				//spawn fire
 				Fire fire;
@@ -41,10 +50,8 @@ namespace DungeonCrawl.Actors.Characters
 			}
 			else if (HIT == ATTACK_START + 30)
 			{
-			
 				for(int i=0; i<_effects.Count; i++)
 				{
-					//_effects.Add(null);
 					ActorManager.Singleton.DestroyActor(_effects[i]);
 					_effects[i].PutOut();
 					_effects[i] = null;
@@ -52,7 +59,16 @@ namespace DungeonCrawl.Actors.Characters
 				_effects = new List<Fire>();
 			}
 			else if (HIT == ATTACK_START + 30 + 20)
-			{ 
+			{
+				//recovery
+				Wall[] wallCopy = new Wall[8];
+				_walls.CopyTo(wallCopy);
+				for (int i = 0; i < wallCopy.Length; i++)
+				{
+					_walls.Remove(_walls[i]);
+					ActorManager.Singleton.DestroyActor(_walls[i]);
+				}
+
 				//recovery
 				HIT = 0;
 			}
