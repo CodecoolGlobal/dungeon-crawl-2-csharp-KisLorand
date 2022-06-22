@@ -9,13 +9,13 @@ namespace DungeonCrawl.Actors.Static
 	public class Fire : Actor
     {
         private int _damage = 3;
-        private int HIT_COUNTER;
+        private int HIT_COUNTER = 0;
         public override int DefaultSpriteId => 494;
         public override string DefaultName => "Fire";
 
-        public override bool Detectable => true;
+        public override bool Detectable => false;
 
-        public override int Z => -1;
+        //public override int Z => -1;
 
         public override bool OnCollision(Actor anotherActor)
         {
@@ -37,17 +37,23 @@ namespace DungeonCrawl.Actors.Static
 
         protected override void OnUpdate(float deltaTime)
         {
-            (int x, int y) playerPos = ActorManager.Singleton.GetPlayer().Position;
-            if (playerPos.x == this.Position.x && playerPos.y == this.Position.y)
-            {
-                /*if (HIT_COUNTER == 10)
-                {*/
-                    DoDamage(ActorManager.Singleton.GetPlayer());
-                    Debug.Log("Fire damage");
-                /*}
-                HIT_COUNTER = 0;*/
-            }
             HIT_COUNTER++;
+            if (HIT_COUNTER >= 10)
+            {
+                (int x, int y) playerPos = ActorManager.Singleton.GetPlayer().Position;
+                if (playerPos.x == this.Position.x && playerPos.y == this.Position.y)
+                {
+                    DoDamage(ActorManager.Singleton.GetPlayer());
+                }
+                HIT_COUNTER = 0;
+            }
+            //Debug.Log("fire" + HIT_COUNTER);
+        }
+
+        public void PutOut()
+        {
+            ActorManager.Singleton.DestroyActor(this);
+            //Destroy(this);
         }
     }
 }
