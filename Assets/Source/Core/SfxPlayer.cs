@@ -32,6 +32,10 @@ namespace DungeonCrawl.Core
             }
         }
 
-        
+        public void PlayHit()
+        {
+            _audioSource = _sfxObject.AddComponent<AudioSource>();
+            _audioSource.PlayOneShot(_hit);
+        }
     }
 }
