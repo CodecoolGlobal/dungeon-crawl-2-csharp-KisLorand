@@ -20,26 +20,20 @@ namespace DungeonCrawl.Actors.Characters
 		protected override void OnUpdate(float deltaTime)
 		{
 			(int x, int y) playerPos = ActorManager.Singleton.GetPlayer().Position;
-			//HIT += deltaTime;
 
-			(int x, int y) adjPos;
+			List<(int x, int y)> firePositions = GetAdjPositions();
+
 			if (HIT == 30 + 900)
 			{
-				adjPos.x = this.Position.x + 1;
-				adjPos.y = this.Position.y + 1;
+				//windup
 			}
 			else if (HIT == 40 + 900)
 			{
-				adjPos.x = this.Position.x + 1;
-				adjPos.y = this.Position.y + 1;
-				var fire = ActorManager.Singleton.Spawn<Fire>(adjPos);
+				var fire = ActorManager.Singleton.Spawn<Fire>(firePositions[0]);
 				_effects.Add(fire);
 			}
 			else if (HIT == 40 + 900 + 30)
 			{
-				Debug.Log("Extinguish Thy flames");
-				//var x = Object.FindObjectsOfType<Fire>();
-				
 				for(int i=0; i<_effects.Count; i++)
 				{
 					ActorManager.Singleton.DestroyActor(_effects[i]);
@@ -49,17 +43,32 @@ namespace DungeonCrawl.Actors.Characters
 			}
 			else if (HIT == 40 + 900 + 30 + 20)
 			{ 
+				//recovery
 				HIT = 0;
 			}
 			HIT++;
-			Debug.Log("pig  " + HIT + "/n" + "meager flames : " + _effects.Count);
+		}
 
+		private List<(int x, int y)> GetAdjPositions()
+		{
+			List<(int x, int y)> adjPositions = new List<(int x, int y)>();
+			List<int> offsetValues = new List<int>() { -1, 0, 1 };
+			for (int i = 0; i < offsetValues.Count; i++)
+			{
+				for (int j = 0; j < offsetValues.Count; j++)
+				{
+					int posX = this.Position.x + offsetValues[i];
+					int posY = this.Position.y + offsetValues[j];
+					if (posX != this.Position.x && posY != this.Position.y)
+						adjPositions.Add((posX, posY));
+				}
+			}
+			return adjPositions;
 		}
 
 		protected override void OnDeath()
 		{
 			Debug.Log("Pig SLAYED");
-			ActorManager.Singleton.Spawn<PigBeast>(this.Position);
 			Destroy(this);
 		}
 
