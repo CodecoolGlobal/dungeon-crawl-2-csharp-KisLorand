@@ -38,6 +38,8 @@ namespace DungeonCrawl.Core
                     SpawnActor(character, (x, -y));
                 }
             }
+            SfxPlayer SoundPlayer = new SfxPlayer();
+            SoundPlayer.PlayBackground();
 
             // Set default camera size and position
             CameraController.Singleton.Size = 3;
