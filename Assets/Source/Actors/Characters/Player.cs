@@ -6,6 +6,7 @@ using DungeonCrawl.Core;
 using UnityEngine;
 using Assets.Source.Actors.Static;
 using Assets.Source.Actors.Inventory;
+using UnityEngine.Playables;
 
 
 namespace DungeonCrawl.Actors.Characters
@@ -76,6 +77,8 @@ namespace DungeonCrawl.Actors.Characters
             UserInterface.Singleton.SetText($"Inventory:\n {_inventory.ToString()}", Assets.Source.Core.UserInterface.TextPosition.TopLeft);
             UserInterface.Singleton.SetText($"Kills: {_killCount}", Assets.Source.Core.UserInterface.TextPosition.BottomRight);
 
+            
+
         }
 
         public override bool OnCollision(Actor anotherActor)
@@ -126,6 +129,11 @@ namespace DungeonCrawl.Actors.Characters
                 {
                     if (item.Position == player.Position)
                     {
+                        if (item.DefaultName == "Key")
+                        {
+                            var value = TryToPickUpKey(item);
+                            return value;
+                        }
                         ActorManager.Singleton.DestroyActor(item);
                         return item;
                     }
@@ -166,6 +174,8 @@ namespace DungeonCrawl.Actors.Characters
             if (anotherCharacter.Health <= 0)
             {
                 _killCount++;
+                CheckIfQuestCompleted();
+
             }
         }
 
@@ -196,7 +206,26 @@ namespace DungeonCrawl.Actors.Characters
             return null;
         }
 
+        public void CheckIfQuestCompleted()
+        {
+            if (_killCount == 4)
+            {
+                UserInterface.Singleton.RemoveText();
+            }
+        }
+        
 
+        public Item TryToPickUpKey(Item item)
+        {
+            if (_killCount == 4)
+            {
+                ActorManager.Singleton.DestroyActor(item);
+                return item;
+            }
+            UserInterface.Singleton.SetText($"Current quest: Kill 3 skeletons to get the key!", Assets.Source.Core.UserInterface.TextPosition.TopCenter);
+            return null;
+        }
+        
     }
 
 }

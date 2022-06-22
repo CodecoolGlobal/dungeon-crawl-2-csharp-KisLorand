@@ -1,4 +1,6 @@
-﻿using TMPro;
+﻿using System;
+using DungeonCrawl.Core;
+using TMPro;
 using UnityEngine;
 
 namespace Assets.Source.Core
@@ -49,6 +51,18 @@ namespace Assets.Source.Core
         public void SetText(string text, TextPosition textPosition)
         {
             _textComponents[(int) textPosition].text = text;
+        }
+
+        public void RemoveText()
+        {
+            foreach (var text in _textComponents)
+            {
+                if (text.text == "Current quest: Kill 3 skeletons to get the key!")
+                {
+                    Destroy(text);
+                }
+
+            }
         }
     }
 }
