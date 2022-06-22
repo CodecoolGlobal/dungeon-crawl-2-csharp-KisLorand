@@ -10,11 +10,11 @@ namespace DungeonCrawl.Actors.Characters
 		private const int HEALTH = 42;
 		private const int DAMAGE = 10;
 		private float HIT = 0;
-		private List<Actor> _effects;
+		private List<Fire> _effects;
 
 		public PigBoss() : base(HEALTH, DAMAGE)
 		{
-			_effects = new List<Actor>(9);
+			_effects = new List<Fire>();
 		}
 
 		protected override void OnUpdate(float deltaTime)
@@ -23,32 +23,36 @@ namespace DungeonCrawl.Actors.Characters
 			//HIT += deltaTime;
 
 			(int x, int y) adjPos;
-			if (HIT == 8)
+			if (HIT == 30 + 900)
 			{
 				adjPos.x = this.Position.x + 1;
 				adjPos.y = this.Position.y + 1;
 			}
-			else if (HIT == 10)
+			else if (HIT == 40 + 900)
 			{
 				adjPos.x = this.Position.x + 1;
 				adjPos.y = this.Position.y + 1;
 				var fire = ActorManager.Singleton.Spawn<Fire>(adjPos);
-				Destroy(fire);
-				/*_effects.Add(fire);
-
-				foreach (Actor flame in _effects)
-				{
-					_effects.Remove(flame);
-					Destroy(flame);
-				}*/
+				_effects.Add(fire);
 			}
-			else if (HIT == 13)
+			else if (HIT == 40 + 900 + 30)
 			{
-				foreach (Actor flame in _effects)
-					Destroy(flame);
+				Debug.Log("Extinguish Thy flames");
+				//var x = Object.FindObjectsOfType<Fire>();
+				
+				for(int i=0; i<_effects.Count; i++)
+				{
+					ActorManager.Singleton.DestroyActor(_effects[i]);
+					_effects.Remove(_effects[i]);
+					_effects[i].PutOut();
+				}
+			}
+			else if (HIT == 40 + 900 + 30 + 20)
+			{ 
 				HIT = 0;
 			}
 			HIT++;
+			Debug.Log("pig  " + HIT + "/n" + "meager flames : " + _effects.Count);
 
 		}
 
