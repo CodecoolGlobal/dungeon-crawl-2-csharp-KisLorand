@@ -839,7 +839,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Resources\Background.wav" />
-    <Content Include="Assets\Resources\Weapon Blow.wav" />
+    <Content Include="Assets\Resources\Hit.wav" />
+    <Content Include="Assets\Resources\Key Jiggle.wav" />
+    <Content Include="Assets\Resources\Pick.wav" />
+    <Content Include="Assets\Resources\Walk.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

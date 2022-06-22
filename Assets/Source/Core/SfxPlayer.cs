@@ -13,7 +13,10 @@ namespace DungeonCrawl.Core
     {
         private GameObject _sfxObject = new GameObject();
         private AudioClip _background = Resources.Load("Background", typeof(AudioClip)) as AudioClip;
-        private AudioClip _hit = Resources.Load("Weapon Blow", typeof(AudioClip)) as AudioClip;
+        private AudioClip _hit = Resources.Load("Hit", typeof(AudioClip)) as AudioClip;
+        private AudioClip _unlock = Resources.Load("Key Jiggle", typeof(AudioClip)) as AudioClip;
+        private AudioClip _walk = Resources.Load("Walk", typeof(AudioClip)) as AudioClip;
+        private AudioClip _pick = Resources.Load("Pick", typeof(AudioClip)) as AudioClip;
         private AudioSource _audioSource;
 
 
@@ -35,7 +38,23 @@ namespace DungeonCrawl.Core
         public void PlayHit()
         {
             _audioSource = _sfxObject.AddComponent<AudioSource>();
-            _audioSource.PlayOneShot(_hit);
+            _audioSource.PlayOneShot(_hit, 0.35f);
         }
+        public void PlayUnlock()
+        {
+            _audioSource = _sfxObject.AddComponent<AudioSource>();
+            _audioSource.PlayOneShot(_unlock, 0.5f);
+        }
+        public void PlayWalk()
+        {
+            _audioSource = _sfxObject.AddComponent<AudioSource>();
+            _audioSource.PlayOneShot(_walk, 0.3f);
+        }
+        public void PlayPick()
+        {
+            _audioSource = _sfxObject.AddComponent<AudioSource>();
+            _audioSource.PlayOneShot(_pick, 0.3f);
+        }
+
     }
 }

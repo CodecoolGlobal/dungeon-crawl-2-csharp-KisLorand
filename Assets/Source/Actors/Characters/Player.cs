@@ -16,15 +16,18 @@ namespace DungeonCrawl.Actors.Characters
         private const int _health = 10;
         private const int _damage = 5;
         private const int _heal = 5;
-
+        private SfxPlayer _soundPlayer;
         private Inventory _inventory;
 
         public Player() : base(_health, _damage)
         {
             _inventory = new Inventory();
+            
+
         }
         protected override void OnUpdate(float deltaTime)
         {
+            _soundPlayer = new SfxPlayer();
             Portal portal = ActorManager.Singleton.GetPortal();
             if (portal != null && Position == portal.Position)
             {
@@ -35,34 +38,38 @@ namespace DungeonCrawl.Actors.Characters
             {
                 // Move up
                 TryMove(Direction.Up);
+                _soundPlayer.PlayWalk();
             }
 
             if (Input.GetKeyDown(KeyCode.S))
             {
                 // Move down
                 TryMove(Direction.Down);
+                _soundPlayer.PlayWalk();
             }
 
             if (Input.GetKeyDown(KeyCode.A))
             {
                 // Move left
                 TryMove(Direction.Left);
+                _soundPlayer.PlayWalk();
             }
 
             if (Input.GetKeyDown(KeyCode.D))
             {
                 // Move right
                 TryMove(Direction.Right);
+                _soundPlayer.PlayWalk();
             }
 
             if (Input.GetKeyDown(KeyCode.E))
             {
                 // Pick up item
                 _inventory.AddItem(CheckForItem());
-
+                _soundPlayer.PlayPick();
             }
 
-
+            
             CameraController.Singleton.Position = Position;
             UserInterface.Singleton.SetText($"Hp: {Health}", Assets.Source.Core.UserInterface.TextPosition.BottomLeft);
             UserInterface.Singleton.SetText($"Inventory:\n {_inventory.ToString()}", Assets.Source.Core.UserInterface.TextPosition.TopLeft);
@@ -71,16 +78,20 @@ namespace DungeonCrawl.Actors.Characters
 
         public override bool OnCollision(Actor anotherActor)
         {
+            _soundPlayer = new SfxPlayer();
             if (anotherActor is Character)
             {
                 Character anotherCharacter = (Character)anotherActor;
                 if (anotherCharacter is not Player)
                 {
+                    
+                    _soundPlayer.PlayHit();
                     DoDamage(anotherCharacter);
                 }
             }
             if (anotherActor is Door)
             {
+                _soundPlayer.PlayUnlock();
                 TryToOpenDoor();
             }
             return false;
