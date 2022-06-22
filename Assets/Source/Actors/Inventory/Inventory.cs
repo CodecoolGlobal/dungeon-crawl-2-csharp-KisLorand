@@ -35,19 +35,32 @@ namespace Assets.Source.Actors.Inventory
         public override string ToString()
         {
             string inventoryContent = string.Empty;
+            int potionCount = 0;
             for (int i = 0; i < Items.Count; i++)
             {
-                inventoryContent+= Items[i].DefaultName + "\n";
+                if (Items[i].DefaultName == "Potion")
+                {
+                    potionCount++;
+                }
+                else
+                {
+                    inventoryContent += Items[i].DefaultName + "\n";
+                }
+                
             }
+
+            if (potionCount > 0)
+            {
+                inventoryContent += $"Potion [{potionCount}]\n";
+
+            }
+            
             return inventoryContent;
         }
 
         public void RemoveItem(Item key)
         {
-
             Items.Remove(key);
-
-
         }
     }
 }
