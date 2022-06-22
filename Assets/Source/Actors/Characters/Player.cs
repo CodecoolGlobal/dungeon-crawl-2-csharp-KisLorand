@@ -14,6 +14,7 @@ namespace DungeonCrawl.Actors.Characters
     {
         private const int _health = 10;
         private const int _damage = 5;
+        private int _killCount;
 
         private bool doorIsLocked = true;
 
@@ -73,6 +74,7 @@ namespace DungeonCrawl.Actors.Characters
             CameraController.Singleton.Position = Position;
             UserInterface.Singleton.SetText($"Hp: {Health}", Assets.Source.Core.UserInterface.TextPosition.BottomLeft);
             UserInterface.Singleton.SetText($"Inventory:\n {_inventory.ToString()}", Assets.Source.Core.UserInterface.TextPosition.TopLeft);
+            UserInterface.Singleton.SetText($"Kills: {_killCount}", Assets.Source.Core.UserInterface.TextPosition.BottomRight);
 
         }
 
@@ -160,7 +162,11 @@ namespace DungeonCrawl.Actors.Characters
                 ApplyDamage(anotherCharacter.Damage);
                 Console.WriteLine(_inventory.Items);
             }
-            
+
+            if (anotherCharacter.Health <= 0)
+            {
+                _killCount++;
+            }
         }
 
 

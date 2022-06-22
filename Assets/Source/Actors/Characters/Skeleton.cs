@@ -6,6 +6,7 @@ namespace DungeonCrawl.Actors.Characters
     {
         private const int _health = 6;
         private const int _damage = 2;
+
         public Skeleton() : base(_health, _damage)
         {
 
