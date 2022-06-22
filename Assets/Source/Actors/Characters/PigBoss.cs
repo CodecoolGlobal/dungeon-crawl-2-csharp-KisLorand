@@ -10,8 +10,12 @@ namespace DungeonCrawl.Actors.Characters
 		private const int HEALTH = 42;
 		private const int DAMAGE = 10;
 		private float HIT = 0;
+
 		private const int ATTACK_START = 900;
 		private const int ATTACK_WINDUP = 5;
+		private const int ATTACK_LENGTH = 25;
+		private const int ATTACK_RECOVERY = 10;
+
 		private List<Fire> _effects;
 		private List<Wall> _walls;
 
@@ -22,8 +26,6 @@ namespace DungeonCrawl.Actors.Characters
 
 		protected override void OnUpdate(float deltaTime)
 		{
-			(int x, int y) playerPos = ActorManager.Singleton.GetPlayer().Position;
-
 			List<(int x, int y)> firePositions = GetAdjPositions();
 
 			if (HIT == ATTACK_START)
@@ -39,7 +41,7 @@ namespace DungeonCrawl.Actors.Characters
 			}
 			else if (HIT == ATTACK_START + ATTACK_WINDUP)
 			{
-				//spawn fire
+				//spawnEffect(T effect, List<(int x, int y)> positions)
 				Fire fire;
 				for (int i = 0; i < firePositions.Count; i++)
 				{
@@ -48,7 +50,7 @@ namespace DungeonCrawl.Actors.Characters
 				}
 				//spawn fire
 			}
-			else if (HIT == ATTACK_START + 30)
+			else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH)
 			{
 				for(int i=0; i<_effects.Count; i++)
 				{
@@ -58,7 +60,7 @@ namespace DungeonCrawl.Actors.Characters
 				}
 				_effects = new List<Fire>();
 			}
-			else if (HIT == ATTACK_START + 30 + 20)
+			else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH + ATTACK_RECOVERY)
 			{
 				//recovery
 				Wall[] wallCopy = new Wall[8];
@@ -68,7 +70,6 @@ namespace DungeonCrawl.Actors.Characters
 					_walls.Remove(_walls[i]);
 					ActorManager.Singleton.DestroyActor(_walls[i]);
 				}
-
 				//recovery
 				HIT = 0;
 			}
