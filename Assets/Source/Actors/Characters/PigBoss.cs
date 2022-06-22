@@ -22,26 +22,36 @@ namespace DungeonCrawl.Actors.Characters
 			(int x, int y) playerPos = ActorManager.Singleton.GetPlayer().Position;
 
 			List<(int x, int y)> firePositions = GetAdjPositions();
+			int ATTACK_START = 900;
 
-			if (HIT == 30 + 900)
+			if (HIT == ATTACK_START)
 			{
 				//windup
 			}
-			else if (HIT == 40 + 900)
+			else if (HIT == ATTACK_START + 5)
 			{
-				var fire = ActorManager.Singleton.Spawn<Fire>(firePositions[0]);
-				_effects.Add(fire);
+				//spawn fire
+				Fire fire;
+				for (int i = 0; i < firePositions.Count; i++)
+				{
+					fire = ActorManager.Singleton.Spawn<Fire>(firePositions[i]);
+					_effects.Add(fire);
+				}
+				//spawn fire
 			}
-			else if (HIT == 40 + 900 + 30)
+			else if (HIT == ATTACK_START + 30)
 			{
+			
 				for(int i=0; i<_effects.Count; i++)
 				{
+					//_effects.Add(null);
 					ActorManager.Singleton.DestroyActor(_effects[i]);
-					_effects.Remove(_effects[i]);
 					_effects[i].PutOut();
+					_effects[i] = null;
 				}
+				_effects = new List<Fire>();
 			}
-			else if (HIT == 40 + 900 + 30 + 20)
+			else if (HIT == ATTACK_START + 30 + 20)
 			{ 
 				//recovery
 				HIT = 0;
@@ -53,13 +63,14 @@ namespace DungeonCrawl.Actors.Characters
 		{
 			List<(int x, int y)> adjPositions = new List<(int x, int y)>();
 			List<int> offsetValues = new List<int>() { -1, 0, 1 };
+
 			for (int i = 0; i < offsetValues.Count; i++)
 			{
 				for (int j = 0; j < offsetValues.Count; j++)
 				{
 					int posX = this.Position.x + offsetValues[i];
 					int posY = this.Position.y + offsetValues[j];
-					if (posX != this.Position.x && posY != this.Position.y)
+					if ((posX, posY) != this.Position)
 						adjPositions.Add((posX, posY));
 				}
 			}
