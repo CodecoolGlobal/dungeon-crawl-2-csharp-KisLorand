@@ -17,11 +17,11 @@ namespace DungeonCrawl.Actors.Characters
         private const int _damage = 5;
         private const int _heal = 5;
 
-        private Inventory _inventory;
+        public Inventory Inventory { get; private set; }
 
         public Player() : base(_health, _damage)
         {
-            _inventory = new Inventory();
+            Inventory = new Inventory();
         }
         protected override void OnUpdate(float deltaTime)
         {
@@ -58,14 +58,18 @@ namespace DungeonCrawl.Actors.Characters
             if (Input.GetKeyDown(KeyCode.E))
             {
                 // Pick up item
-                _inventory.AddItem(CheckForItem());
+                Inventory.AddItem(CheckForItem());
 
+            }
+            if (Input.GetKeyDown(KeyCode.F9))
+            {
+                ActorManager.Singleton.JsonifyAllActors();
             }
 
 
             CameraController.Singleton.Position = Position;
             UserInterface.Singleton.SetText($"Hp: {Health}", Assets.Source.Core.UserInterface.TextPosition.BottomLeft);
-            UserInterface.Singleton.SetText($"Inventory:\n {_inventory.ToString()}", Assets.Source.Core.UserInterface.TextPosition.TopLeft);
+            UserInterface.Singleton.SetText($"Inventory:\n {Inventory.ToString()}", Assets.Source.Core.UserInterface.TextPosition.TopLeft);
 
         }
 
@@ -142,7 +146,7 @@ namespace DungeonCrawl.Actors.Characters
             if (anotherCharacter.Health > 0)
             {
                 ApplyDamage(anotherCharacter.Damage);
-                Console.WriteLine(_inventory.Items);
+                Console.WriteLine(Inventory.Items);
             }
             
         }
