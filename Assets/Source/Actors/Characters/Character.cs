@@ -1,5 +1,6 @@
 ﻿using DungeonCrawl.Core;
 using UnityEngine;
+using Random = System.Random;
 
 namespace DungeonCrawl.Actors.Characters
 {
@@ -18,7 +19,7 @@ namespace DungeonCrawl.Actors.Characters
 
         public void ApplyDamage(int damage)
         {
-            Health -= damage;
+            Health -= damage - GetDamageModifier();
             Debug.Log($"Damage!!! {DefaultName} hp: {Health}");
             if (Health <= 0)
             {
@@ -52,6 +53,12 @@ namespace DungeonCrawl.Actors.Characters
             }
             return true;
         }
-	}
+
+        private static int GetDamageModifier()
+        {
+            System.Random random = new Random();
+            return random.Next(-1, 1);
+        }
+    }
         
 }
