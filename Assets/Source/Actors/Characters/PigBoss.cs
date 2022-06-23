@@ -39,31 +39,32 @@ namespace DungeonCrawl.Actors.Characters
 		protected override void OnUpdate(float deltaTime)
 		{
 			if (HIT < ATTACK_START && HIT%45 == 2)
-			{
-				(int x, int y) playerPos = ActorManager.Singleton.GetPlayer().Position;
-
-				if (playerPos.x == this.Position.x)
-				{
-					if (playerPos.y < this.Position.y)
-						_pigDirection = Direction.Down;
-					else
-						_pigDirection = Direction.Up;
-				}
-				else if (playerPos.y == this.Position.y)
-				{
-					if (playerPos.x < this.Position.x)
-						_pigDirection = Direction.Left;
-					else
-						_pigDirection = Direction.Right;
-				}
-
-				TryMove(_pigDirection);
-			}
+				Move();
 			else
-			{
 				CastFlames();
-			}
 			HIT++;
+		}
+
+		private void Move()
+		{
+			(int x, int y) playerPos = ActorManager.Singleton.GetPlayer().Position;
+
+			if (playerPos.x == this.Position.x)
+			{
+				if (playerPos.y < this.Position.y)
+					_pigDirection = Direction.Down;
+				else
+					_pigDirection = Direction.Up;
+			}
+			else if (playerPos.y == this.Position.y)
+			{
+				if (playerPos.x < this.Position.x)
+					_pigDirection = Direction.Left;
+				else
+					_pigDirection = Direction.Right;
+			}
+
+			TryMove(_pigDirection);
 		}
 
 		private void CastFlames()
