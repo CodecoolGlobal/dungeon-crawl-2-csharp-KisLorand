@@ -17,6 +17,8 @@ namespace DungeonCrawl.Actors.Characters
 		private const int ATTACK_LENGTH = 25;
 		private const int ATTACK_RECOVERY = 5;
 
+		private Direction _pigDirection;
+
 		private List<Fire> _fireEffects;
 		private List<Lava> _lavaEffects;
 
@@ -36,34 +38,54 @@ namespace DungeonCrawl.Actors.Characters
 
 		protected override void OnUpdate(float deltaTime)
 		{
-			if (HIT < ATTACK_START && HIT%100 == 2)
+			if (HIT < ATTACK_START && HIT%45 == 2)
 			{
-				TryMove(Direction.Right);
+				(int x, int y) playerPos = ActorManager.Singleton.GetPlayer().Position;
+
+				if (playerPos.x == this.Position.x)
+				{
+					if (playerPos.y < this.Position.y)
+						_pigDirection = Direction.Down;
+					else
+						_pigDirection = Direction.Up;
+				}
+				else if (playerPos.y == this.Position.y)
+				{
+					if (playerPos.x < this.Position.x)
+						_pigDirection = Direction.Left;
+					else
+						_pigDirection = Direction.Right;
+				}
+
+				TryMove(_pigDirection);
 			}
 			else
 			{
-				//CastFlames()
-				List<(int x, int y)> firePositions = GetAdjPositions();
-				if (HIT == ATTACK_START)
-				{
-					SpawnLavaEffect(firePositions);
-				}
-				else if (HIT == ATTACK_START + ATTACK_WINDUP)
-				{
-					SpawnEffect(firePositions);
-				}
-				else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH)
-				{
-					RemoveFireEffect();
-				}
-				else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH + ATTACK_RECOVERY)
-				{
-					RemoveLavaEffect();
-					HIT = 0;
-				}
-				//CastFlames()
+				CastFlames();
 			}
 			HIT++;
+		}
+
+		private void CastFlames()
+		{
+			List<(int x, int y)> firePositions = GetAdjPositions();
+			if (HIT == ATTACK_START)
+			{
+				SpawnLavaEffect(firePositions);
+			}
+			else if (HIT == ATTACK_START + ATTACK_WINDUP)
+			{
+				SpawnEffect(firePositions);
+			}
+			else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH)
+			{
+				RemoveFireEffect();
+			}
+			else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH + ATTACK_RECOVERY)
+			{
+				RemoveLavaEffect();
+				HIT = 0;
+			}
 		}
 
 		private void RemoveLavaEffect()
