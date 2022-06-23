@@ -18,7 +18,7 @@ namespace DungeonCrawl.Actors.Characters
 		private const int ATTACK_RECOVERY = 10;
 
 		private List<Fire> _fireEffects;
-		private List<Wall> _lavaEffects;
+		private List<Lava> _lavaEffects;
 
 		public PigBoss() : base(HEALTH, DAMAGE)
 		{
@@ -40,12 +40,7 @@ namespace DungeonCrawl.Actors.Characters
 			if (HIT == ATTACK_START)
 			{
 				//windup
-				Wall lava;
-				for (int i = 0; i < firePositions.Count; i++)
-				{
-					lava = ActorManager.Singleton.Spawn<Wall>(firePositions[i]);
-					_lavaEffects.Add(lava);
-				}
+				SpawnLavaEffect(firePositions);
 				//windup
 			}
 			else if (HIT == ATTACK_START + ATTACK_WINDUP)
@@ -68,17 +63,34 @@ namespace DungeonCrawl.Actors.Characters
 			else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH + ATTACK_RECOVERY)
 			{
 				//recovery
-				Wall[] wallCopy = new Wall[8];
+				for (int i = 0; i < _lavaEffects.Count; i++)
+				{
+					Debug.Log(_fireEffects[i]);
+					ActorManager.Singleton.DestroyActor(_lavaEffects[i]);
+					_lavaEffects[i] = null;
+				}
+				_lavaEffects = new List<Lava>();
+				/*Lava[] wallCopy = new Lava[8];
 				_lavaEffects.CopyTo(wallCopy);
 				for (int i = 0; i < wallCopy.Length; i++)
 				{
 					_lavaEffects.Remove(_lavaEffects[i]);
 					ActorManager.Singleton.DestroyActor(_lavaEffects[i]);
-				}
+				}*/
 				//recovery
 				HIT = 0;
 			}
 			HIT++;
+		}
+
+		private void SpawnLavaEffect(List<(int x, int y)> firePositions)
+		{
+			Lava lava;
+			for (int i = 0; i < firePositions.Count; i++)
+			{
+				lava = ActorManager.Singleton.Spawn<Lava>(firePositions[i]);
+				_lavaEffects.Add(lava);
+			}
 		}
 
 		private void SpawnEffect(List<(int x, int y)> firePositions)
