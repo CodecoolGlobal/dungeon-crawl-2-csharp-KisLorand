@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System;
-using Random = System.Random;
+using Random = UnityEngine.Random;
 
 namespace DungeonCrawl.Actors.Characters
 {

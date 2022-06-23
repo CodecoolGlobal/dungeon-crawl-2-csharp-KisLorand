@@ -20,12 +20,9 @@ namespace DungeonCrawl.Actors.Characters
 
         private bool doorIsLocked = true;
 
-        private Inventory _inventory;
-
         private const int _heal = 5;
         private SfxPlayer _soundPlayer;
         public Inventory Inventory { get; private set; }
-
 
         public Player() : base(_health, _damage)
         {
@@ -73,7 +70,7 @@ namespace DungeonCrawl.Actors.Characters
             if (Input.GetKeyDown(KeyCode.E))
             {
                 // Pick up item
-                _inventory.AddItem(TryToPickUpItem());
+                Inventory.AddItem(TryToPickUpItem());
                 _soundPlayer.PlayPick();
 
             }
@@ -91,7 +88,7 @@ namespace DungeonCrawl.Actors.Characters
 
             CameraController.Singleton.Position = Position;
             UserInterface.Singleton.SetText($"Hp: {Health}", Assets.Source.Core.UserInterface.TextPosition.BottomLeft);
-            UserInterface.Singleton.SetText($"Inventory:\n {_inventory.ToString()}", Assets.Source.Core.UserInterface.TextPosition.TopLeft);
+            UserInterface.Singleton.SetText($"Inventory:\n {Inventory.ToString()}", Assets.Source.Core.UserInterface.TextPosition.TopLeft);
             UserInterface.Singleton.SetText($"Kills: {_killCount}", Assets.Source.Core.UserInterface.TextPosition.BottomRight);
         }
 
@@ -130,7 +127,7 @@ namespace DungeonCrawl.Actors.Characters
             {
                 ApplyHeal(Potion.GetHeal());
                 Item usedPotion = GetItemFromInventory(itemName);
-                _inventory.RemoveItem(usedPotion);
+                Inventory.RemoveItem(usedPotion);
             }
         }
 
@@ -175,7 +172,7 @@ namespace DungeonCrawl.Actors.Characters
                 }
             }
             Item usedKey = GetItemFromInventory("Key");
-            _inventory.RemoveItem(usedKey);
+            Inventory.RemoveItem(usedKey);
             doorIsLocked = true;
         }
 
@@ -199,7 +196,7 @@ namespace DungeonCrawl.Actors.Characters
 
         public bool IsInInventory(string itemName)
         {
-            foreach (var item in _inventory.Items)
+            foreach (var item in Inventory.Items)
             {
                 if (item.DefaultName == itemName)
                 {
@@ -213,7 +210,7 @@ namespace DungeonCrawl.Actors.Characters
 
         public Item GetItemFromInventory(string itemName)
         {
-            foreach (var item in _inventory.Items)
+            foreach (var item in Inventory.Items)
             {
                 if (item.DefaultName == itemName)
                 {
