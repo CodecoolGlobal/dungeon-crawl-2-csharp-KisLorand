@@ -8,7 +8,7 @@ namespace DungeonCrawl.Actors.Items
 {
     public class Potion : Item
     {
-        private static readonly int _heal = GetHealValue();
+        private static readonly int _heal = Utilities.GetRandomNumberWithinRange(2,5);
         public override int DefaultSpriteId => 656;
         public override string DefaultName => "Potion";
 
@@ -17,12 +17,6 @@ namespace DungeonCrawl.Actors.Items
         public static int GetHeal()
         {
             return _heal;
-        }
-
-        private static int GetHealValue()
-        {
-            Random random = new Random();
-            return random.Next(2, 5);
         }
 
     }

@@ -19,7 +19,13 @@ namespace DungeonCrawl.Actors.Characters
 
         public void ApplyDamage(int damage)
         {
-            Health -= damage - GetDamageModifier();
+            int damageModifier = Utilities.GetRandomNumberWithinRange(0, 3);
+            int totalDamage = damage + damageModifier;
+            if (totalDamage < 0)
+            {
+                totalDamage = 0;
+            }
+            Health -= totalDamage;
             Debug.Log($"Damage!!! {DefaultName} hp: {Health}");
             if (Health <= 0)
             {
@@ -54,11 +60,6 @@ namespace DungeonCrawl.Actors.Characters
             return true;
         }
 
-        private static int GetDamageModifier()
-        {
-            System.Random random = new Random();
-            return random.Next(-1, 1);
-        }
     }
         
 }

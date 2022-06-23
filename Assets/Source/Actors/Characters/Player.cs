@@ -210,19 +210,21 @@ namespace DungeonCrawl.Actors.Characters
         {
             if (_killCount == 4)
             {
-                UserInterface.Singleton.RemoveText();
+                UserInterface.Singleton.RemoveTopCenterText();
             }
         }
         
 
         public Item TryToPickUpKey(Item item)
         {
+            string questDescription = $"Current quest: Kill 3 skeletons to get the key!";
+
             if (_killCount == 4)
             {
                 ActorManager.Singleton.DestroyActor(item);
                 return item;
             }
-            UserInterface.Singleton.SetText($"Current quest: Kill 3 skeletons to get the key!", Assets.Source.Core.UserInterface.TextPosition.TopCenter);
+            UserInterface.Singleton.SetText(questDescription, Assets.Source.Core.UserInterface.TextPosition.TopCenter);
             return null;
         }
         

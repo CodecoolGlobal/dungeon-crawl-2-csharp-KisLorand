@@ -4,15 +4,10 @@ namespace DungeonCrawl.Actors.Static
 {
     public class Floor : Actor
     {
-        public override int DefaultSpriteId => GetFloorID();
+        public override int DefaultSpriteId => Utilities.GetRandomNumberWithinRange(4, 6);
         public override string DefaultName => "Floor";
 
         public override bool Detectable => false;
 
-        private int GetFloorID()
-        {
-            Random random = new Random();
-            return random.Next(4, 6);
-        }
     }
 }

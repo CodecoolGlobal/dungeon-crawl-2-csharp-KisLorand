@@ -53,13 +53,15 @@ namespace Assets.Source.Core
             _textComponents[(int) textPosition].text = text;
         }
 
-        public void RemoveText()
+        public void RemoveTopCenterText()
         {
-            foreach (var text in _textComponents)
+            int TopCenter = 1;
+
+            for (int i = 0; i < _textComponents.Length; i++)
             {
-                if (text.text == "Current quest: Kill 3 skeletons to get the key!")
+                if (i == TopCenter)
                 {
-                    Destroy(text);
+                    Destroy(_textComponents[i]);
                 }
 
             }
