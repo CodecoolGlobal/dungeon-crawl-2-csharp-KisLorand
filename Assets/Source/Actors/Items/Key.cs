@@ -13,10 +13,6 @@ namespace DungeonCrawl.Actors.Items
         public override string DefaultName => "Key";
 
         public override bool Detectable => false;
-
-        protected override void OnPickUp()
-        {
-        }
         
     }
 }
