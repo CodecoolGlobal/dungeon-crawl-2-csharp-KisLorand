@@ -92,6 +92,14 @@ namespace DungeonCrawl.Core
                   ActorManager.Singleton.Spawn<Pig>(position);
                   ActorManager.Singleton.Spawn<Floor>(position);
                     break;
+                case 'S':
+                    ActorManager.Singleton.Spawn<Armor>(position);
+                    ActorManager.Singleton.Spawn<Floor>(position);
+                    break;
+                case 'H':
+                    ActorManager.Singleton.Spawn<Helm>(position);
+                    ActorManager.Singleton.Spawn<Floor>(position);
+                    break;
                 case 'B':
                     ActorManager.Singleton.Spawn<PigBoss>(position);
                     ActorManager.Singleton.Spawn<Floor>(position);

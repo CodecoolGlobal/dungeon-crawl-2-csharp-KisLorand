@@ -12,6 +12,8 @@ namespace DungeonCrawl.Actors.Characters
         protected int _direction;
         protected float _timer;
         protected float _limit;
+        private bool _hasShield = false;
+        private bool _hasHelm = false;
 
         public Character(int health, int damage)
         {
@@ -19,11 +21,34 @@ namespace DungeonCrawl.Actors.Characters
             Damage = damage;
         }
 
+        public void EquipShield()
+        {
+            _hasShield = true;
+        }
+
+        public void EquipHelm()
+        {
+            _hasHelm = true;
+        }
 
 
         public void ApplyDamage(int damage)
         {
-            int damageModifier = Utilities.GetRandomNumberWithinRange(0, 3);
+            int damageModifier;
+
+            if (_hasShield)
+            {
+                damageModifier = Utilities.GetRandomNumberWithinRange(-1, 1);
+            }
+            else if (_hasHelm)
+            {
+                damageModifier = Utilities.GetRandomNumberWithinRange(-5, 0);
+            }
+            else
+            {
+                damageModifier = Utilities.GetRandomNumberWithinRange(0, 3);
+            }
+            
             int totalDamage = damage + damageModifier;
             if (totalDamage < 0)
             {

@@ -9,7 +9,7 @@ namespace DungeonCrawl.Actors.Characters
 	public class PigBoss : Character
 	{
 		private const int HEALTH = 42;
-		private const int DAMAGE = 10;
+		private const int DAMAGE = 7;
 		private float MOVE_COUNTER = 0;
 
 		private const int ATTACK_START = 900;
