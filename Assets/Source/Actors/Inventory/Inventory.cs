@@ -11,7 +11,7 @@ using Assets.Source.Core;
 
 namespace Assets.Source.Actors.Inventory
 {
-    internal class Inventory
+    public class Inventory
     {
         //Contructor(s)
         public Inventory()
@@ -24,7 +24,7 @@ namespace Assets.Source.Actors.Inventory
         //Propeties
         public List<Item> Items { get; private set; }
 
-        public Sprite emptyChest;
+        //public Sprite emptyChest;
         private bool collected;
 
 
