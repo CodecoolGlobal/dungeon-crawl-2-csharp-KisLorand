@@ -100,6 +100,10 @@ namespace DungeonCrawl.Core
                     ActorManager.Singleton.Spawn<Helm>(position);
                     ActorManager.Singleton.Spawn<Floor>(position);
                     break;
+                case 'B':
+                    ActorManager.Singleton.Spawn<BeastSlayer>(position);
+                    ActorManager.Singleton.Spawn<Floor>(position);
+                    break;
                 case ' ':
                     break;
                
