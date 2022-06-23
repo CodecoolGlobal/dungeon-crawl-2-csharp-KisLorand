@@ -1,4 +1,6 @@
-﻿using TMPro;
+﻿using System;
+using DungeonCrawl.Core;
+using TMPro;
 using UnityEngine;
 
 namespace Assets.Source.Core
@@ -49,6 +51,20 @@ namespace Assets.Source.Core
         public void SetText(string text, TextPosition textPosition)
         {
             _textComponents[(int) textPosition].text = text;
+        }
+
+        public void RemoveTopCenterText()
+        {
+            int TopCenter = 1;
+
+            for (int i = 0; i < _textComponents.Length; i++)
+            {
+                if (i == TopCenter)
+                {
+                    Destroy(_textComponents[i]);
+                }
+
+            }
         }
     }
 }
