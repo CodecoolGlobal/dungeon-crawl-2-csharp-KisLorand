@@ -282,12 +282,13 @@ namespace DungeonCrawl.Actors.Characters
             if (item.DefaultName == "Helm")
             {
                 EquipHelm();
-                this.SetSprite(28);
+                isQuestOk = true;
+                this.SetSprite(27);
             }
             if (item.DefaultName == "BeastSlayer")
             {
                 EquipBeastSlayer();
-                this.SetSprite(29);
+                this.SetSprite(28);
             }
         }
 
