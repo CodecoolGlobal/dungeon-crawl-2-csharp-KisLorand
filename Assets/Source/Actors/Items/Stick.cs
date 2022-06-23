@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DungeonCrawl.Actors.Items
 {
-    public class Axe : Item
+    public class Stick : Item
     {
-        public override int DefaultSpriteId => 425;
-        public override string DefaultName => "Axe";
+        public override int DefaultSpriteId => 177;
+        public override string DefaultName => "Stick";
 
         public override bool Detectable => false;
 

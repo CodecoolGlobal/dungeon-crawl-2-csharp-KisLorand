@@ -31,7 +31,7 @@ namespace DungeonCrawl.Actors.Characters
             _hasHelm = true;
         }
 
-
+      
         public void ApplyDamage(int damage)
         {
             int damageModifier;
