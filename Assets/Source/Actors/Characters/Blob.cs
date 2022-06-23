@@ -22,7 +22,7 @@ namespace Assets.Source.Actors.Characters
         }
         public override int DefaultSpriteId => 315;
 
-        public override string DefaultName => "blob";
+        public override string DefaultName => "Blob";
 
         protected override void OnDeath()
         {

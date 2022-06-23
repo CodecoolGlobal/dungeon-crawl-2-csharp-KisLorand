@@ -85,7 +85,13 @@ namespace DungeonCrawl.Actors.Characters
             }
             if (Input.GetKeyDown(KeyCode.F9))
             {
-                ActorManager.Singleton.JsonifyAllActors();
+                Debug.Log("Game Saved!");
+                ActorManager.JsonManager.JsonifyAllActors();
+            }
+            if (Input.GetKeyDown(KeyCode.F10))
+            {
+                MapLoader.LoadSavedGAme();
+                
             }
 
             if (Input.GetKeyDown(KeyCode.Escape))
