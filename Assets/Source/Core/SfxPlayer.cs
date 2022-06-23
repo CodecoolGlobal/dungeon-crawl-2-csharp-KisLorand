@@ -30,7 +30,7 @@ namespace DungeonCrawl.Core
             }
             else
             {
-                _audioSource.Play();
+                _audioSource.PlayOneShot(_background);
                 Debug.Log("started playing");
             }
         }
