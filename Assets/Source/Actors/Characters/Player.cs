@@ -19,6 +19,7 @@ namespace DungeonCrawl.Actors.Characters
         private int _killCount;
 
         private bool doorIsLocked = true;
+        private bool isQuestOk = false;
 
         private const int _heal = 5;
         private SfxPlayer _soundPlayer;
@@ -148,6 +149,7 @@ namespace DungeonCrawl.Actors.Characters
                             var value = TryToPickUpKey(item);
                             return value;
                         }
+                        EquipItem(item);
                         ActorManager.Singleton.DestroyActor(item);
                         return item;
                     }
@@ -233,6 +235,7 @@ namespace DungeonCrawl.Actors.Characters
             if (_killCount == 4)
             {
                 UserInterface.Singleton.RemoveTopCenterText();
+                isQuestOk = true;
             }
         }
         
@@ -241,7 +244,7 @@ namespace DungeonCrawl.Actors.Characters
         {
             string questDescription = $"Current quest: Kill 3 skeletons to get the key!";
 
-            if (_killCount == 4)
+            if (isQuestOk)
             {
                 ActorManager.Singleton.DestroyActor(item);
                 return item;
@@ -249,6 +252,26 @@ namespace DungeonCrawl.Actors.Characters
             UserInterface.Singleton.SetText(questDescription, Assets.Source.Core.UserInterface.TextPosition.TopCenter);
             return null;
         }
+
+        public void EquipItem(Item item)
+        {
+            if (item.DefaultName == "Axe")
+            {
+                this.SetSprite(25);
+            }
+            if (item.DefaultName == "Armor")
+            {
+                EquipShield();
+                this.SetSprite(26);
+            }
+            if (item.DefaultName == "Helm")
+            {
+                EquipHelm();
+                this.SetSprite(28);
+            }
+        }
+
+
         
     }
 

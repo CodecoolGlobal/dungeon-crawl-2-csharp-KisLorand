@@ -59,6 +59,8 @@
     <Compile Include="Assets\Source\Actors\Static\Wall.cs" />
     <Compile Include="Assets\Source\Actors\Items\Potion.cs" />
     <Compile Include="Assets\Source\Actors\Static\Floor.cs" />
+    <Compile Include="Assets\Source\Actors\Static\Lava.cs" />
+    <Compile Include="Assets\Source\Core\SfxPlayer.cs" />
     <Compile Include="Assets\Source\Core\CameraController.cs" />
     <Compile Include="Assets\Source\Core\UserInterface.cs" />
     <Compile Include="Assets\Source\Actors\Items\Item.cs" />
@@ -78,7 +80,10 @@
     <Compile Include="Assets\Source\Core\GameManager.cs" />
     <Compile Include="Assets\Source\Actors\Characters\Blob.cs" />
     <Compile Include="Assets\Source\Core\ActorManager.cs" />
-    <Compile Include="Assets\Source\Core\SfxPlayer.cs" />
+    <Compile Include="Assets\Source\Actors\Items\Armor.cs" />
+    <Compile Include="Assets\Source\Actors\Items\Helm.cs" />
+    <Compile Include="Assets\Source\Actors\Static\Blood.cs" />
+    <Compile Include="Assets\Source\Actors\Static\Bonepile.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
