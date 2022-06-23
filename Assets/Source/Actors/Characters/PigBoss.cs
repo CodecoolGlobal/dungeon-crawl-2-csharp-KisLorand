@@ -12,10 +12,10 @@ namespace DungeonCrawl.Actors.Characters
 		private const int DAMAGE = 10;
 		private float HIT = 0;
 
-		private const int ATTACK_START = 900;
-		private const int ATTACK_WINDUP = 5;
+		private const int ATTACK_START = 90;
+		private const int ATTACK_WINDUP = 15;
 		private const int ATTACK_LENGTH = 25;
-		private const int ATTACK_RECOVERY = 10;
+		private const int ATTACK_RECOVERY = 5;
 
 		private List<Fire> _fireEffects;
 		private List<Lava> _lavaEffects;
@@ -52,23 +52,12 @@ namespace DungeonCrawl.Actors.Characters
 			}
 			else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH)
 			{
-				for(int i=0; i<_fireEffects.Count; i++)
-				{
-					ActorManager.Singleton.DestroyActor(_fireEffects[i]);
-					_fireEffects[i].PutOut();
-					_fireEffects[i] = null;
-				}
-				_fireEffects = new List<Fire>();
+				RemoveFireEffect();
 			}
 			else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH + ATTACK_RECOVERY)
 			{
 				//recovery
-				for (int i=0; i<_lavaEffects.Count; i++)
-				{
-					ActorManager.Singleton.DestroyActor(_lavaEffects[i]);
-					_lavaEffects[i] = null;
-				}
-				_lavaEffects = new List<Lava>();
+				RemoveLavaEffect();
 				/*Lava[] wallCopy = new Lava[8];
 				_lavaEffects.CopyTo(wallCopy);
 				for (int i = 0; i < wallCopy.Length; i++)
@@ -80,6 +69,27 @@ namespace DungeonCrawl.Actors.Characters
 				HIT = 0;
 			}
 			HIT++;
+		}
+
+		private void RemoveLavaEffect()
+		{
+			for (int i = 0; i < _lavaEffects.Count; i++)
+			{
+				ActorManager.Singleton.DestroyActor(_lavaEffects[i]);
+				_lavaEffects[i] = null;
+			}
+			_lavaEffects = new List<Lava>();
+		}
+
+		private void RemoveFireEffect()
+		{
+			for (int i = 0; i < _fireEffects.Count; i++)
+			{
+				ActorManager.Singleton.DestroyActor(_fireEffects[i]);
+				_fireEffects[i].PutOut();
+				_fireEffects[i] = null;
+			}
+			_fireEffects = new List<Fire>();
 		}
 
 		private void SpawnLavaEffect(List<(int x, int y)> firePositions)
