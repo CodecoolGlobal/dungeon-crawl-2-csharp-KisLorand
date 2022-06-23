@@ -13,8 +13,5 @@ namespace DungeonCrawl.Actors.Items
 
         public override bool Detectable => false;
 
-        protected override void OnPickUp()
-        {
-        }
     }
 }

@@ -139,7 +139,7 @@ namespace DungeonCrawl.Core
             return component;
         }
 
-        public List<Item> GetItemList()
+        public List<Item> GetListOfValidItems()
         {
             List<Item> items = new();
 
@@ -154,19 +154,19 @@ namespace DungeonCrawl.Core
             return items;
         }
 
-        public Door GetDoor()
+        public Door GetCurrentDoor(Actor door)
         {
+       
             foreach (var actor in _allActors)
             {
-                if (actor is Door door)
+                if (actor.Position == door.Position)
                 {
-                    return door;
+                    return (Door)actor;
                 }
             }
 
             return null;
         }
-
 
 
         public void ColorTile(string type, Color color)
