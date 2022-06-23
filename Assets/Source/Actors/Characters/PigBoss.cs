@@ -23,6 +23,7 @@ namespace DungeonCrawl.Actors.Characters
 		public PigBoss() : base(HEALTH, DAMAGE)
 		{
 			_fireEffects = new List<Fire>();
+			_lavaEffects = new List<Lava>();
 		}
 		public override int DefaultSpriteId => 413;
 		public override string DefaultName => "PigBoss";
@@ -36,7 +37,7 @@ namespace DungeonCrawl.Actors.Characters
 		protected override void OnUpdate(float deltaTime)
 		{
 			List<(int x, int y)> firePositions = GetAdjPositions();
-
+			Debug.Log(firePositions);
 			if (HIT == ATTACK_START)
 			{
 				//windup
@@ -51,9 +52,8 @@ namespace DungeonCrawl.Actors.Characters
 			}
 			else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH)
 			{
-				for(int i=0; i< _fireEffects.Count; i++)
+				for(int i=0; i<_fireEffects.Count; i++)
 				{
-					Debug.Log(_fireEffects[i]);
 					ActorManager.Singleton.DestroyActor(_fireEffects[i]);
 					_fireEffects[i].PutOut();
 					_fireEffects[i] = null;
@@ -63,9 +63,8 @@ namespace DungeonCrawl.Actors.Characters
 			else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH + ATTACK_RECOVERY)
 			{
 				//recovery
-				for (int i = 0; i < _lavaEffects.Count; i++)
+				for (int i=0; i<_lavaEffects.Count; i++)
 				{
-					Debug.Log(_fireEffects[i]);
 					ActorManager.Singleton.DestroyActor(_lavaEffects[i]);
 					_lavaEffects[i] = null;
 				}
@@ -104,15 +103,15 @@ namespace DungeonCrawl.Actors.Characters
 		}
 
 
-		/*private void SpawnEffect<T>(List<(int x, int y)> firePositions) where T : Actor
+		private void SpawnEffect<T>(List<(int x, int y)> firePositions) where T : Actor
 		{
 			T effect;
 			for (int i = 0; i < firePositions.Count; i++)
 			{
 				effect = ActorManager.Singleton.Spawn<T>(firePositions[i]);
-				_effects.Add(effect);
+				//_effects.Add(effect);
 			}
-		}*/
+		}
 
 		private List<(int x, int y)> GetAdjPositions()
 		{
