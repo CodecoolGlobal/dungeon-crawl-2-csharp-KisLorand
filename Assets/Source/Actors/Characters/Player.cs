@@ -162,6 +162,8 @@ namespace DungeonCrawl.Actors.Characters
 
         public void Awake()
         {
+            _spriteRenderer = GetComponent<SpriteRenderer>();
+            SetSprite(DefaultSpriteId);
             _soundPlayer = new SfxPlayer();
         }
 
