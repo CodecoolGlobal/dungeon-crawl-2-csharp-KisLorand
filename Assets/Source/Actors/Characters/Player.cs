@@ -6,6 +6,7 @@ using DungeonCrawl.Core;
 using UnityEngine;
 using Assets.Source.Actors.Static;
 using Assets.Source.Actors.Inventory;
+using UnityEngine.SceneManagement;
 using UnityEngine.Playables;
 
 
@@ -85,7 +86,12 @@ namespace DungeonCrawl.Actors.Characters
                 ActorManager.Singleton.JsonifyAllActors();
             }
 
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            }
 
+            
             CameraController.Singleton.Position = Position;
             UserInterface.Singleton.SetText($"Hp: {Health}", Assets.Source.Core.UserInterface.TextPosition.BottomLeft);
             UserInterface.Singleton.SetText($"Inventory:\n {Inventory.ToString()}", Assets.Source.Core.UserInterface.TextPosition.TopLeft);
