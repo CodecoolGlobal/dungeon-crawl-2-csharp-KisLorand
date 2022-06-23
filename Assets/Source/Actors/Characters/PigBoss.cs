@@ -12,7 +12,7 @@ namespace DungeonCrawl.Actors.Characters
 		private const int DAMAGE = 10;
 		private float HIT = 0;
 
-		private const int ATTACK_START = 90;
+		private const int ATTACK_START = 900;
 		private const int ATTACK_WINDUP = 15;
 		private const int ATTACK_LENGTH = 25;
 		private const int ATTACK_RECOVERY = 5;
@@ -36,37 +36,32 @@ namespace DungeonCrawl.Actors.Characters
 
 		protected override void OnUpdate(float deltaTime)
 		{
-			List<(int x, int y)> firePositions = GetAdjPositions();
-			Debug.Log(firePositions);
-			if (HIT == ATTACK_START)
+			if (HIT < ATTACK_START && HIT%100 == 2)
 			{
-				//windup
-				SpawnLavaEffect(firePositions);
-				//windup
+				TryMove(Direction.Right);
 			}
-			else if (HIT == ATTACK_START + ATTACK_WINDUP)
+			else
 			{
-				//spawnEffect(T effect, List<(int x, int y)> positions)
-				SpawnEffect(firePositions);
-				//spawn fire
-			}
-			else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH)
-			{
-				RemoveFireEffect();
-			}
-			else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH + ATTACK_RECOVERY)
-			{
-				//recovery
-				RemoveLavaEffect();
-				/*Lava[] wallCopy = new Lava[8];
-				_lavaEffects.CopyTo(wallCopy);
-				for (int i = 0; i < wallCopy.Length; i++)
+				//CastFlames()
+				List<(int x, int y)> firePositions = GetAdjPositions();
+				if (HIT == ATTACK_START)
 				{
-					_lavaEffects.Remove(_lavaEffects[i]);
-					ActorManager.Singleton.DestroyActor(_lavaEffects[i]);
-				}*/
-				//recovery
-				HIT = 0;
+					SpawnLavaEffect(firePositions);
+				}
+				else if (HIT == ATTACK_START + ATTACK_WINDUP)
+				{
+					SpawnEffect(firePositions);
+				}
+				else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH)
+				{
+					RemoveFireEffect();
+				}
+				else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH + ATTACK_RECOVERY)
+				{
+					RemoveLavaEffect();
+					HIT = 0;
+				}
+				//CastFlames()
 			}
 			HIT++;
 		}
