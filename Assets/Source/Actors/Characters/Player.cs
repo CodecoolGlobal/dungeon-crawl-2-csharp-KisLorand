@@ -16,15 +16,18 @@ namespace DungeonCrawl.Actors.Characters
         private const int _health = 10;
         private const int _damage = 5;
         private const int _heal = 5;
-
-        private Inventory _inventory;
+        private SfxPlayer _soundPlayer;
+        public Inventory Inventory { get; private set; }
 
         public Player() : base(_health, _damage)
         {
-            _inventory = new Inventory();
+            Inventory = new Inventory();
+            
+
         }
         protected override void OnUpdate(float deltaTime)
         {
+            _soundPlayer = new SfxPlayer();
             Portal portal = ActorManager.Singleton.GetPortal();
             if (portal != null && Position == portal.Position)
             {
@@ -35,52 +38,64 @@ namespace DungeonCrawl.Actors.Characters
             {
                 // Move up
                 TryMove(Direction.Up);
+                _soundPlayer.PlayWalk();
             }
 
             if (Input.GetKeyDown(KeyCode.S))
             {
                 // Move down
                 TryMove(Direction.Down);
+                _soundPlayer.PlayWalk();
             }
 
             if (Input.GetKeyDown(KeyCode.A))
             {
                 // Move left
                 TryMove(Direction.Left);
+                _soundPlayer.PlayWalk();
             }
 
             if (Input.GetKeyDown(KeyCode.D))
             {
                 // Move right
                 TryMove(Direction.Right);
+                _soundPlayer.PlayWalk();
             }
 
             if (Input.GetKeyDown(KeyCode.E))
             {
                 // Pick up item
-                _inventory.AddItem(CheckForItem());
-
+                Inventory.AddItem(CheckForItem());
+                _soundPlayer.PlayPick();
+            }
+            if (Input.GetKeyDown(KeyCode.F9))
+            {
+                ActorManager.Singleton.JsonifyAllActors();
             }
 
-
+            
             CameraController.Singleton.Position = Position;
             UserInterface.Singleton.SetText($"Hp: {Health}", Assets.Source.Core.UserInterface.TextPosition.BottomLeft);
-            UserInterface.Singleton.SetText($"Inventory:\n {_inventory.ToString()}", Assets.Source.Core.UserInterface.TextPosition.TopLeft);
+            UserInterface.Singleton.SetText($"Inventory:\n {Inventory.ToString()}", Assets.Source.Core.UserInterface.TextPosition.TopLeft);
 
         }
 
         public override bool OnCollision(Actor anotherActor)
         {
+            _soundPlayer = new SfxPlayer();
             if (anotherActor is Character)
             {
                 Character anotherCharacter = (Character)anotherActor;
                 if (anotherCharacter is not Player)
                 {
+                    
+                    _soundPlayer.PlayHit();
                     DoDamage(anotherCharacter);
                 }
             }
             if (anotherActor is Door)
             {
+                _soundPlayer.PlayUnlock();
                 TryToOpenDoor();
             }
             return false;
@@ -142,7 +157,7 @@ namespace DungeonCrawl.Actors.Characters
             if (anotherCharacter.Health > 0)
             {
                 ApplyDamage(anotherCharacter.Damage);
-                Console.WriteLine(_inventory.Items);
+
             }
             
         }
