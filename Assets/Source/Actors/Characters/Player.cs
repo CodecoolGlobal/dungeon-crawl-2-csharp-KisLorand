@@ -8,6 +8,7 @@ using DungeonCrawl.Core;
 using UnityEngine;
 using Assets.Source.Actors.Static;
 using Assets.Source.Actors.Inventory;
+using UnityEngine.SceneManagement;
 
 namespace DungeonCrawl.Actors.Characters
 {
@@ -70,6 +71,11 @@ namespace DungeonCrawl.Actors.Characters
             if (Input.GetKeyDown(KeyCode.F9))
             {
                 ActorManager.Singleton.JsonifyAllActors();
+            }
+
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
             }
 
             
