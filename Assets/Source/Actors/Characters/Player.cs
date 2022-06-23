@@ -27,7 +27,6 @@ namespace DungeonCrawl.Actors.Characters
         }
         protected override void OnUpdate(float deltaTime)
         {
-            _soundPlayer = new SfxPlayer();
             Portal portal = ActorManager.Singleton.GetPortal();
             if (portal != null && Position == portal.Position)
             {
@@ -78,7 +77,6 @@ namespace DungeonCrawl.Actors.Characters
 
         public override bool OnCollision(Actor anotherActor)
         {
-            _soundPlayer = new SfxPlayer();
             if (anotherActor is Character)
             {
                 Character anotherCharacter = (Character)anotherActor;
@@ -158,6 +156,10 @@ namespace DungeonCrawl.Actors.Characters
             
         }
 
+        public void Awake()
+        {
+            _soundPlayer = new SfxPlayer();
+        }
 
     }
 
