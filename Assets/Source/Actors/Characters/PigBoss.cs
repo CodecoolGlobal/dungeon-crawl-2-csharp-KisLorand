@@ -10,7 +10,7 @@ namespace DungeonCrawl.Actors.Characters
 	{
 		private const int HEALTH = 42;
 		private const int DAMAGE = 10;
-		private float HIT = 0;
+		private float MOVE_COUNTER = 0;
 
 		private const int ATTACK_START = 900;
 		private const int ATTACK_WINDUP = 15;
@@ -31,18 +31,18 @@ namespace DungeonCrawl.Actors.Characters
 		public override string DefaultName => "PigBoss";
 		protected override void OnDeath()
 		{
-			Debug.Log("Pig SLAYED");
+			Debug.Log("PIG SLAYED");
 			Destroy(this);
 		}
 
 
 		protected override void OnUpdate(float deltaTime)
 		{
-			if (HIT < ATTACK_START && HIT%45 == 2)
+			if (MOVE_COUNTER < ATTACK_START && MOVE_COUNTER%45 == 2)
 				Move();
 			else
 				CastFlames();
-			HIT++;
+			MOVE_COUNTER++;
 		}
 
 		private void Move()
@@ -70,22 +70,22 @@ namespace DungeonCrawl.Actors.Characters
 		private void CastFlames()
 		{
 			List<(int x, int y)> firePositions = GetAdjPositions();
-			if (HIT == ATTACK_START)
+			if (MOVE_COUNTER == ATTACK_START)
 			{
 				SpawnLavaEffect(firePositions);
 			}
-			else if (HIT == ATTACK_START + ATTACK_WINDUP)
+			else if (MOVE_COUNTER == ATTACK_START + ATTACK_WINDUP)
 			{
-				SpawnEffect(firePositions);
+				SpawnFireEffect(firePositions);
 			}
-			else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH)
+			else if (MOVE_COUNTER == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH)
 			{
 				RemoveFireEffect();
 			}
-			else if (HIT == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH + ATTACK_RECOVERY)
+			else if (MOVE_COUNTER == ATTACK_START + ATTACK_WINDUP + ATTACK_LENGTH + ATTACK_RECOVERY)
 			{
 				RemoveLavaEffect();
-				HIT = 0;
+				MOVE_COUNTER = 0;
 			}
 		}
 
@@ -120,7 +120,7 @@ namespace DungeonCrawl.Actors.Characters
 			}
 		}
 
-		private void SpawnEffect(List<(int x, int y)> firePositions)
+		private void SpawnFireEffect(List<(int x, int y)> firePositions)
 		{
 			Fire effect;
 			for (int i = 0; i < firePositions.Count; i++)
