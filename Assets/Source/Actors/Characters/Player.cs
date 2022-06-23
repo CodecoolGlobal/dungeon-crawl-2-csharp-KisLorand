@@ -120,6 +120,7 @@ namespace DungeonCrawl.Actors.Characters
 
         protected override void OnDeath()
         {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
             Debug.Log("YOU DIED");
         }
 
