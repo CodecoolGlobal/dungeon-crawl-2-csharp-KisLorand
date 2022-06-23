@@ -11,6 +11,7 @@ using Newtonsoft.Json;
 using UnityEngine.U2D;
 using Newtonsoft.Json.Linq;
 using System.IO;
+using Assets.Source.Core;
 
 namespace DungeonCrawl.Core
 {
@@ -23,6 +24,8 @@ namespace DungeonCrawl.Core
         ///     ActorManager singleton
         /// </summary>
         public static ActorManager Singleton { get; private set; }
+
+        public static JsonManager JsonManager { get; private set; }
 
         private SpriteAtlas _spriteAtlas;
         private HashSet<Actor> _allActors;
@@ -39,6 +42,7 @@ namespace DungeonCrawl.Core
 
             _allActors = new HashSet<Actor>();
             _spriteAtlas = Resources.Load<SpriteAtlas>("Spritesheet");
+            JsonManager = new JsonManager(_allActors);
         }
 
         /// <summary>
@@ -193,48 +197,5 @@ namespace DungeonCrawl.Core
             return null;
 
         }
-
-        public void JsonifyAllActors()
-        {
-            int objectId = 0;
-            string json = "{\n";
-            foreach (var actor in _allActors)
-            {
-                var comma = ",";
-                if (actor == _allActors.Last())
-                {
-                    comma = "";
-                }
-                json += $"\"Object{objectId}\":\n\t{{\n";
-                var position = JsonConvert.SerializeObject(actor.Position);
-                var defaultName = JsonConvert.SerializeObject(actor.DefaultName);
-                var defaultSpriteId = JsonConvert.SerializeObject(actor.DefaultSpriteId);
-                var decetable = JsonConvert.SerializeObject(actor.Detectable);
-                var z = JsonConvert.SerializeObject(actor.Z);
-                if (actor is Character character)
-                {
-                    var damage = JsonConvert.SerializeObject(character.Damage);
-                    var health = JsonConvert.SerializeObject(character.Health);
-                    json += $"\t\"damage\": {damage},\n" +
-                            $"\t\"health\": {health},\n";
-                    if (character is Player player && !player.Inventory.Items.Any())
-                    {
-                        var invetory = JsonConvert.SerializeObject(player.Inventory);
-                        json += $"\t\"inventory\": {invetory},\n";
-                    }
-                }
-                json +=
-                     $"\t\"position\": {position},\n" +
-                    $"\t\"defaultName\": {defaultName},\n" +
-                    $"\t\"defaultSpriteId\": {defaultSpriteId},\n" +
-                    $"\t\"decectable\": {decetable},\n" +
-                    $"\t\"z\": {z}\n";
-                json += $"\t}}{comma}\n";
-                objectId++;
-
-            }
-            json += "}";
-            File.WriteAllText("gameSave.json", json);
         }
     }
-}
