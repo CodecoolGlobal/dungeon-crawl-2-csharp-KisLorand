@@ -25,14 +25,16 @@ namespace DungeonCrawl.Actors.Characters
 
         private const int _heal = 5;
         private SfxPlayer _soundPlayer;
-        public Inventory Inventory { get; private set; }
+        public Inventory Inventory { get; set; }
 
         public Player() : base(_health, _damage)
-        {
-            Inventory = new Inventory();
+        {       
+            if(Inventory == null)
+                Inventory = new Inventory();
             
 
         }
+
         protected override void OnUpdate(float deltaTime)
         {
             Portal portal = ActorManager.Singleton.GetPortal();

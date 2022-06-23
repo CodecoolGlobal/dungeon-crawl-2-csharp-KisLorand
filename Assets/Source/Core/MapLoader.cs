@@ -150,7 +150,7 @@ namespace DungeonCrawl.Core
                         ActorManager.Singleton.Spawn<Floor>(position);
                         break;
                     case "Player":
-                        ActorManager.Singleton.Spawn<Player>(position);
+                        ActorManager.Singleton.SpawnPlayer(position, ActorManager.JsonManager.LoadPlayerInventory());
                         break;
                     case "Skeleton":
                         ActorManager.Singleton.Spawn<Skeleton>(position);

@@ -12,6 +12,7 @@ using UnityEngine.U2D;
 using Newtonsoft.Json.Linq;
 using System.IO;
 using Assets.Source.Core;
+using Assets.Source.Actors.Inventory;
 
 namespace DungeonCrawl.Core
 {
@@ -138,6 +139,21 @@ namespace DungeonCrawl.Core
             go.name = actorName ?? component.DefaultName;
             component.Position = (x, y);
 
+            _allActors.Add(component);
+
+            return component;
+        }
+
+        public Player SpawnPlayer((int, int) position, Inventory inventory)
+        {
+            var go = new GameObject();  // <= creates new GameBoject
+            go.AddComponent<SpriteRenderer>(); // <= add component to GO (SpriteRenderer unity component)
+
+            var component = go.AddComponent<Player>(); // <= add custom class component to GO
+
+            go.name =  component.DefaultName;
+            component.Position = position;
+            component.Inventory = inventory;
             _allActors.Add(component);
 
             return component;

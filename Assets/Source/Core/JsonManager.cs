@@ -1,5 +1,7 @@
-﻿using DungeonCrawl.Actors;
+﻿using Assets.Source.Actors.Inventory;
+using DungeonCrawl.Actors;
 using DungeonCrawl.Actors.Characters;
+using DungeonCrawl.Actors.Items;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -8,6 +10,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEngine;
 
 namespace Assets.Source.Core
 {
@@ -44,10 +47,14 @@ namespace Assets.Source.Core
                     var health = JsonConvert.SerializeObject(character.Health);
                     json += $"\t\"damage\": {damage},\n" +
                             $"\t\"health\": {health},\n";
-                    if (character is Player player && !player.Inventory.Items.Any())
+                    if (character is Player player && player.Inventory.Items.Any())
                     {
-                        var invetory = JsonConvert.SerializeObject(player.Inventory);
+                        var invetory = "[" + string.Join(", ", player.Inventory.Items.Select(s => $"\"{s.DefaultName}\"")) + "]";
                         json += $"\t\"inventory\": {invetory},\n";
+                    }
+                    else
+                    {
+                        json += $"\t\"inventory\":[],\n";
                     }
                 }
                 json +=
@@ -69,6 +76,50 @@ namespace Assets.Source.Core
             string jsonString = File.ReadAllText(_fileRoute);
             JObject json = JObject.Parse(jsonString);
             return json;
+        }
+
+        public Inventory LoadPlayerInventory()
+        {
+            string jsonString = File.ReadAllText(_fileRoute);
+            JObject json = JObject.Parse(jsonString);
+            Inventory inventory = new Inventory();
+            foreach (JProperty item in json.Properties())
+            {
+                if ((string)item.Value["defaultName"] == "Player")
+                {
+                    var items = item.Value["inventory"];
+
+                    foreach (var inventoryItem in items)
+                    {
+                        switch ((string)inventoryItem)
+                        {
+                            case "Potion":
+                                inventory.Items.Add(new Potion());
+                                break;
+                            case "Key":
+                                inventory.Items.Add(new Key());
+                                break;
+                            case "Helm":
+                                inventory.Items.Add(new Helm());
+                                break;
+                            case "BeastSlayer":
+                                inventory.Items.Add(new BeastSlayer());
+                                break;
+                            case "Stick":
+                                inventory.Items.Add(new Stick());
+                                break;
+                            case "Armor":
+                                inventory.Items.Add(new Armor());
+                                break;
+                        }
+                    }
+
+                        
+                }
+
+            
+            }
+            return inventory;
         }
     }
 }
