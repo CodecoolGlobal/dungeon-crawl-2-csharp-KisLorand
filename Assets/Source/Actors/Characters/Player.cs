@@ -21,6 +21,7 @@ namespace DungeonCrawl.Actors.Characters
 
         private bool doorIsLocked = true;
         private bool isQuestOk = false;
+        private bool _hasBeastSlayer = false;
 
         private const int _heal = 5;
         private SfxPlayer _soundPlayer;
@@ -187,7 +188,14 @@ namespace DungeonCrawl.Actors.Characters
 
         public void DoDamage(Character anotherCharacter)
         {
-            anotherCharacter.ApplyDamage(Damage);
+            int additionalDamage = 0;
+
+            if (_hasBeastSlayer)
+            {
+                additionalDamage = 10;
+            }
+
+            anotherCharacter.ApplyDamage(Damage + additionalDamage);
             if (anotherCharacter.Health > 0)
             {
                 ApplyDamage(anotherCharacter.Damage);
@@ -262,7 +270,7 @@ namespace DungeonCrawl.Actors.Characters
 
         public void EquipItem(Item item)
         {
-            if (item.DefaultName == "Axe")
+            if (item.DefaultName == "Stick")
             {
                 this.SetSprite(25);
             }
@@ -274,12 +282,22 @@ namespace DungeonCrawl.Actors.Characters
             if (item.DefaultName == "Helm")
             {
                 EquipHelm();
+                isQuestOk = true;
+                this.SetSprite(27);
+            }
+            if (item.DefaultName == "BeastSlayer")
+            {
+                EquipBeastSlayer();
                 this.SetSprite(28);
             }
         }
 
+        public void EquipBeastSlayer()
+        {
+            _hasBeastSlayer = true;
+        }
 
-        
+
     }
 
 }

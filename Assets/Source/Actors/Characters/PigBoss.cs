@@ -3,12 +3,13 @@ using DungeonCrawl.Core;
 using DungeonCrawl.Actors.Static;
 using System.Collections.Generic;
 using System;
+using Assets.Source.Core;
 
 namespace DungeonCrawl.Actors.Characters
 {
 	public class PigBoss : Character
 	{
-		private const int HEALTH = 42;
+		private const int HEALTH = 97;
 		private const int DAMAGE = 7;
 		private float MOVE_COUNTER = 0;
 
@@ -29,11 +30,6 @@ namespace DungeonCrawl.Actors.Characters
 		}
 		public override int DefaultSpriteId => 413;
 		public override string DefaultName => "PigBoss";
-		protected override void OnDeath()
-		{
-			Debug.Log("PIG SLAYED");
-			Destroy(this);
-		}
 
 
 		protected override void OnUpdate(float deltaTime)
@@ -159,5 +155,16 @@ namespace DungeonCrawl.Actors.Characters
 			return adjPositions;
 		}
 
+		protected override void OnDeath()
+		{
+			UserInterface.Singleton.SetText($"PIG SLAYED\nPress Esc to quit.", Assets.Source.Core.UserInterface.TextPosition.MiddleCenter);
+			
+			Debug.Log("PIG SLAYED");
+			Destroy(this);
+			ActorManager.Singleton.Spawn<Blood>(this.Position);
+			_spriteRenderer = GetComponent<SpriteRenderer>();
+			ActorManager.Singleton.ColorTile("Blood", Color.red);
+			SetSprite(DefaultSpriteId);
+		}
 	}
 }
