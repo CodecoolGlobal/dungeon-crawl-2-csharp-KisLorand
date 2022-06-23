@@ -8,7 +8,7 @@ namespace DungeonCrawl.Actors.Items
 {
     public class Potion : Item
     {
-        private static readonly int _heal = Utilities.GetRandomNumberWithinRange(2,5);
+        private static readonly int _heal = Utilities.GetRandomNumberWithinRange(3,5);
         public override int DefaultSpriteId => 656;
         public override string DefaultName => "Potion";
 

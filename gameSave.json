@@ -105,7 +105,7 @@
 	},
 "Object13":
 	{
-	"position": {"Item1":0,"Item2":-1},
+	"position": {"Item1":56,"Item2":0},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -113,103 +113,103 @@
 	},
 "Object14":
 	{
-	"position": {"Item1":1,"Item2":-1},
-	"defaultName": "Key",
-	"defaultSpriteId": 559,
-	"decectable": false,
-	"z": -1
+	"position": {"Item1":57,"Item2":0},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
 	},
 "Object15":
 	{
-	"position": {"Item1":1,"Item2":-1},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":58,"Item2":0},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object16":
 	{
-	"position": {"Item1":2,"Item2":-1},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":59,"Item2":0},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object17":
 	{
-	"position": {"Item1":3,"Item2":-1},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":60,"Item2":0},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object18":
 	{
-	"position": {"Item1":4,"Item2":-1},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":61,"Item2":0},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object19":
 	{
-	"position": {"Item1":5,"Item2":-1},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":62,"Item2":0},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object20":
 	{
-	"position": {"Item1":6,"Item2":-1},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":63,"Item2":0},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object21":
 	{
-	"position": {"Item1":7,"Item2":-1},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":64,"Item2":0},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object22":
 	{
-	"position": {"Item1":8,"Item2":-1},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":65,"Item2":0},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object23":
 	{
-	"position": {"Item1":9,"Item2":-1},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":66,"Item2":0},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object24":
 	{
-	"position": {"Item1":10,"Item2":-1},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":67,"Item2":0},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object25":
 	{
-	"position": {"Item1":11,"Item2":-1},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":68,"Item2":0},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object26":
 	{
-	"position": {"Item1":12,"Item2":-1},
+	"position": {"Item1":69,"Item2":0},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -217,7 +217,7 @@
 	},
 "Object27":
 	{
-	"position": {"Item1":17,"Item2":-1},
+	"position": {"Item1":70,"Item2":0},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -225,7 +225,7 @@
 	},
 "Object28":
 	{
-	"position": {"Item1":18,"Item2":-1},
+	"position": {"Item1":71,"Item2":0},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -233,7 +233,7 @@
 	},
 "Object29":
 	{
-	"position": {"Item1":19,"Item2":-1},
+	"position": {"Item1":72,"Item2":0},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -241,7 +241,7 @@
 	},
 "Object30":
 	{
-	"position": {"Item1":20,"Item2":-1},
+	"position": {"Item1":73,"Item2":0},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -249,7 +249,7 @@
 	},
 "Object31":
 	{
-	"position": {"Item1":21,"Item2":-1},
+	"position": {"Item1":74,"Item2":0},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -257,7 +257,7 @@
 	},
 "Object32":
 	{
-	"position": {"Item1":22,"Item2":-1},
+	"position": {"Item1":75,"Item2":0},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -265,7 +265,7 @@
 	},
 "Object33":
 	{
-	"position": {"Item1":23,"Item2":-1},
+	"position": {"Item1":76,"Item2":0},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -273,7 +273,7 @@
 	},
 "Object34":
 	{
-	"position": {"Item1":24,"Item2":-1},
+	"position": {"Item1":77,"Item2":0},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -281,7 +281,7 @@
 	},
 "Object35":
 	{
-	"position": {"Item1":0,"Item2":-2},
+	"position": {"Item1":78,"Item2":0},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -289,49 +289,47 @@
 	},
 "Object36":
 	{
-	"position": {"Item1":1,"Item2":-2},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":79,"Item2":0},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object37":
 	{
-	"position": {"Item1":2,"Item2":-2},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":80,"Item2":0},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object38":
 	{
-	"position": {"Item1":3,"Item2":-2},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":81,"Item2":0},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object39":
 	{
-	"damage": 2,
-	"health": 6,
-	"position": {"Item1":3,"Item2":-2},
-	"defaultName": "Skeleton",
-	"defaultSpriteId": 316,
+	"position": {"Item1":82,"Item2":0},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
 	"decectable": true,
-	"z": -1
+	"z": 0
 	},
 "Object40":
 	{
-	"position": {"Item1":4,"Item2":-2},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":0,"Item2":-1},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object41":
 	{
-	"position": {"Item1":5,"Item2":-2},
+	"position": {"Item1":1,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -339,33 +337,34 @@
 	},
 "Object42":
 	{
-	"position": {"Item1":6,"Item2":-2},
+	"damage": 5,
+	"health": 10,
+	"inventory": {"Items":[]},
+	"position": {"Item1":4,"Item2":-3},
+	"defaultName": "Player",
+	"defaultSpriteId": 24,
+	"decectable": true,
+	"z": -1
+	},
+"Object43":
+	{
+	"position": {"Item1":2,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
-"Object43":
+"Object44":
 	{
-	"position": {"Item1":7,"Item2":-2},
+	"position": {"Item1":3,"Item2":-1},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
-"Object44":
-	{
-	"damage": 2,
-	"health": 6,
-	"position": {"Item1":7,"Item2":-3},
-	"defaultName": "Skeleton",
-	"defaultSpriteId": 316,
-	"decectable": true,
-	"z": -1
-	},
 "Object45":
 	{
-	"position": {"Item1":8,"Item2":-2},
+	"position": {"Item1":4,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -373,7 +372,7 @@
 	},
 "Object46":
 	{
-	"position": {"Item1":9,"Item2":-2},
+	"position": {"Item1":5,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -381,7 +380,7 @@
 	},
 "Object47":
 	{
-	"position": {"Item1":10,"Item2":-2},
+	"position": {"Item1":6,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -389,47 +388,47 @@
 	},
 "Object48":
 	{
-	"position": {"Item1":11,"Item2":-2},
+	"position": {"Item1":7,"Item2":-1},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object49":
 	{
-	"position": {"Item1":12,"Item2":-2},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":8,"Item2":-1},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object50":
 	{
-	"position": {"Item1":13,"Item2":-2},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":9,"Item2":-1},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object51":
 	{
-	"position": {"Item1":14,"Item2":-2},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":10,"Item2":-1},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object52":
 	{
-	"position": {"Item1":15,"Item2":-2},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":11,"Item2":-1},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object53":
 	{
-	"position": {"Item1":16,"Item2":-2},
+	"position": {"Item1":12,"Item2":-1},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -437,7 +436,7 @@
 	},
 "Object54":
 	{
-	"position": {"Item1":17,"Item2":-2},
+	"position": {"Item1":17,"Item2":-1},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -445,55 +444,55 @@
 	},
 "Object55":
 	{
-	"position": {"Item1":18,"Item2":-2},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":18,"Item2":-1},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object56":
 	{
-	"position": {"Item1":19,"Item2":-2},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":19,"Item2":-1},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object57":
 	{
-	"position": {"Item1":20,"Item2":-2},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":20,"Item2":-1},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object58":
 	{
-	"position": {"Item1":21,"Item2":-2},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":21,"Item2":-1},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object59":
 	{
-	"position": {"Item1":22,"Item2":-2},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":22,"Item2":-1},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object60":
 	{
-	"position": {"Item1":23,"Item2":-2},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":23,"Item2":-1},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object61":
 	{
-	"position": {"Item1":24,"Item2":-2},
+	"position": {"Item1":24,"Item2":-1},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -501,7 +500,7 @@
 	},
 "Object62":
 	{
-	"position": {"Item1":0,"Item2":-3},
+	"position": {"Item1":56,"Item2":-1},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -509,7 +508,7 @@
 	},
 "Object63":
 	{
-	"position": {"Item1":1,"Item2":-3},
+	"position": {"Item1":57,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -517,23 +516,23 @@
 	},
 "Object64":
 	{
-	"position": {"Item1":2,"Item2":-3},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"position": {"Item1":58,"Item2":-1},
+	"defaultName": "Potion",
+	"defaultSpriteId": 656,
 	"decectable": false,
-	"z": 0
+	"z": -1
 	},
 "Object65":
 	{
-	"position": {"Item1":3,"Item2":-3},
+	"position": {"Item1":58,"Item2":-1},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object66":
 	{
-	"position": {"Item1":4,"Item2":-3},
+	"position": {"Item1":59,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -541,7 +540,7 @@
 	},
 "Object67":
 	{
-	"position": {"Item1":5,"Item2":-3},
+	"position": {"Item1":60,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -549,23 +548,23 @@
 	},
 "Object68":
 	{
-	"position": {"Item1":6,"Item2":-3},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
-	"z": 0
-	},
-"Object69":
-	{
-	"position": {"Item1":7,"Item2":-3},
+	"position": {"Item1":61,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
+"Object69":
+	{
+	"position": {"Item1":62,"Item2":-1},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
 "Object70":
 	{
-	"position": {"Item1":8,"Item2":-3},
+	"position": {"Item1":63,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -573,7 +572,7 @@
 	},
 "Object71":
 	{
-	"position": {"Item1":9,"Item2":-3},
+	"position": {"Item1":64,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -581,7 +580,7 @@
 	},
 "Object72":
 	{
-	"position": {"Item1":10,"Item2":-3},
+	"position": {"Item1":65,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -589,23 +588,23 @@
 	},
 "Object73":
 	{
-	"position": {"Item1":11,"Item2":-3},
+	"position": {"Item1":66,"Item2":-1},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object74":
 	{
-	"position": {"Item1":12,"Item2":-3},
+	"position": {"Item1":67,"Item2":-1},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object75":
 	{
-	"position": {"Item1":13,"Item2":-3},
+	"position": {"Item1":68,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -613,31 +612,31 @@
 	},
 "Object76":
 	{
-	"position": {"Item1":14,"Item2":-3},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
-	"z": 0
-	},
-"Object77":
-	{
-	"position": {"Item1":15,"Item2":-3},
+	"position": {"Item1":69,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
-"Object78":
+"Object77":
 	{
-	"position": {"Item1":16,"Item2":-3},
+	"position": {"Item1":70,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
+"Object78":
+	{
+	"position": {"Item1":71,"Item2":-1},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
 "Object79":
 	{
-	"position": {"Item1":17,"Item2":-3},
+	"position": {"Item1":72,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -645,23 +644,23 @@
 	},
 "Object80":
 	{
-	"position": {"Item1":18,"Item2":-3},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
-	"z": 0
-	},
-"Object81":
-	{
-	"position": {"Item1":19,"Item2":-3},
+	"position": {"Item1":73,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
+"Object81":
+	{
+	"position": {"Item1":74,"Item2":-1},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
 "Object82":
 	{
-	"position": {"Item1":20,"Item2":-3},
+	"position": {"Item1":75,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -669,55 +668,55 @@
 	},
 "Object83":
 	{
-	"position": {"Item1":21,"Item2":-3},
-	"defaultName": "Potion",
-	"defaultSpriteId": 656,
-	"decectable": false,
-	"z": -1
-	},
-"Object84":
-	{
-	"position": {"Item1":21,"Item2":-3},
+	"position": {"Item1":76,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
-"Object85":
+"Object84":
 	{
-	"position": {"Item1":22,"Item2":-3},
+	"position": {"Item1":77,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
-"Object86":
+"Object85":
 	{
-	"position": {"Item1":23,"Item2":-3},
+	"position": {"Item1":78,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
+"Object86":
+	{
+	"position": {"Item1":79,"Item2":-1},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
 "Object87":
 	{
-	"position": {"Item1":24,"Item2":-3},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
+	"position": {"Item1":80,"Item2":-1},
+	"defaultName": "Potion",
+	"defaultSpriteId": 656,
+	"decectable": false,
+	"z": -1
 	},
 "Object88":
 	{
-	"position": {"Item1":0,"Item2":-4},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":80,"Item2":-1},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object89":
 	{
-	"position": {"Item1":1,"Item2":-4},
+	"position": {"Item1":81,"Item2":-1},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -725,31 +724,31 @@
 	},
 "Object90":
 	{
-	"position": {"Item1":2,"Item2":-4},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":82,"Item2":-1},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object91":
 	{
-	"position": {"Item1":3,"Item2":-4},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":0,"Item2":-2},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object92":
 	{
-	"position": {"Item1":4,"Item2":-4},
+	"position": {"Item1":1,"Item2":-2},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object93":
 	{
-	"position": {"Item1":5,"Item2":-4},
+	"position": {"Item1":2,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -757,7 +756,7 @@
 	},
 "Object94":
 	{
-	"position": {"Item1":6,"Item2":-4},
+	"position": {"Item1":3,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -765,57 +764,55 @@
 	},
 "Object95":
 	{
-	"position": {"Item1":7,"Item2":-4},
+	"position": {"Item1":4,"Item2":-2},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object96":
 	{
-	"position": {"Item1":8,"Item2":-4},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
-	"z": 0
-	},
-"Object97":
-	{
-	"position": {"Item1":9,"Item2":-4},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
-	"z": 0
-	},
-"Object98":
-	{
-	"position": {"Item1":10,"Item2":-4},
+	"position": {"Item1":5,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
-"Object99":
+"Object97":
 	{
-	"damage": 1,
-	"health": 10,
-	"position": {"Item1":10,"Item2":-5},
-	"defaultName": "Blob",
-	"defaultSpriteId": 315,
-	"decectable": true,
-	"z": -1
+	"position": {"Item1":6,"Item2":-2},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
 	},
-"Object100":
+"Object98":
 	{
-	"position": {"Item1":11,"Item2":-4},
+	"position": {"Item1":7,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
+"Object99":
+	{
+	"position": {"Item1":8,"Item2":-2},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object100":
+	{
+	"position": {"Item1":9,"Item2":-2},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
 "Object101":
 	{
-	"position": {"Item1":12,"Item2":-4},
+	"position": {"Item1":10,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -823,143 +820,143 @@
 	},
 "Object102":
 	{
-	"position": {"Item1":13,"Item2":-4},
+	"position": {"Item1":11,"Item2":-2},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object103":
 	{
-	"position": {"Item1":14,"Item2":-4},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":12,"Item2":-2},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object104":
 	{
-	"position": {"Item1":15,"Item2":-4},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":13,"Item2":-2},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object105":
 	{
-	"position": {"Item1":16,"Item2":-4},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":14,"Item2":-2},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object106":
 	{
-	"position": {"Item1":17,"Item2":-4},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":15,"Item2":-2},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object107":
 	{
-	"position": {"Item1":18,"Item2":-4},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":16,"Item2":-2},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object108":
 	{
-	"position": {"Item1":19,"Item2":-4},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":17,"Item2":-2},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object109":
 	{
-	"position": {"Item1":20,"Item2":-4},
+	"position": {"Item1":18,"Item2":-2},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object110":
 	{
-	"position": {"Item1":21,"Item2":-4},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
-	"z": 0
-	},
-"Object111":
-	{
-	"position": {"Item1":22,"Item2":-4},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
-	"z": 0
-	},
-"Object112":
-	{
-	"position": {"Item1":23,"Item2":-4},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
-	"z": 0
-	},
-"Object113":
-	{
-	"position": {"Item1":24,"Item2":-4},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object114":
-	{
-	"position": {"Item1":0,"Item2":-5},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object115":
-	{
-	"position": {"Item1":1,"Item2":-5},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
-	"z": 0
-	},
-"Object116":
-	{
-	"position": {"Item1":2,"Item2":-5},
+	"position": {"Item1":19,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
-"Object117":
+"Object111":
 	{
-	"position": {"Item1":3,"Item2":-5},
+	"position": {"Item1":20,"Item2":-2},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object112":
+	{
+	"position": {"Item1":21,"Item2":-2},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object113":
+	{
+	"position": {"Item1":22,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object114":
+	{
+	"position": {"Item1":23,"Item2":-2},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object115":
+	{
+	"position": {"Item1":24,"Item2":-2},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object116":
+	{
+	"position": {"Item1":56,"Item2":-2},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object117":
+	{
+	"position": {"Item1":57,"Item2":-2},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object118":
 	{
-	"position": {"Item1":4,"Item2":-5},
+	"position": {"Item1":58,"Item2":-2},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object119":
 	{
-	"position": {"Item1":5,"Item2":-5},
+	"position": {"Item1":59,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -967,39 +964,39 @@
 	},
 "Object120":
 	{
-	"position": {"Item1":6,"Item2":-5},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
-	"z": 0
-	},
-"Object121":
-	{
-	"position": {"Item1":7,"Item2":-5},
+	"position": {"Item1":60,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
-"Object122":
+"Object121":
 	{
-	"position": {"Item1":8,"Item2":-5},
+	"position": {"Item1":61,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object122":
+	{
+	"position": {"Item1":62,"Item2":-2},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object123":
 	{
-	"position": {"Item1":9,"Item2":-5},
+	"position": {"Item1":63,"Item2":-2},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object124":
 	{
-	"position": {"Item1":10,"Item2":-5},
+	"position": {"Item1":64,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -1007,7 +1004,7 @@
 	},
 "Object125":
 	{
-	"position": {"Item1":11,"Item2":-5},
+	"position": {"Item1":65,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1015,55 +1012,55 @@
 	},
 "Object126":
 	{
-	"position": {"Item1":12,"Item2":-5},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":66,"Item2":-2},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object127":
 	{
-	"position": {"Item1":13,"Item2":-5},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":67,"Item2":-2},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object128":
 	{
-	"position": {"Item1":14,"Item2":-5},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":68,"Item2":-2},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object129":
 	{
-	"position": {"Item1":15,"Item2":-5},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":69,"Item2":-2},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object130":
 	{
-	"position": {"Item1":16,"Item2":-5},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":70,"Item2":-2},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object131":
 	{
-	"position": {"Item1":17,"Item2":-5},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":71,"Item2":-2},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object132":
 	{
-	"position": {"Item1":18,"Item2":-5},
+	"position": {"Item1":72,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -1071,7 +1068,7 @@
 	},
 "Object133":
 	{
-	"position": {"Item1":19,"Item2":-5},
+	"position": {"Item1":73,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -1079,7 +1076,7 @@
 	},
 "Object134":
 	{
-	"position": {"Item1":20,"Item2":-5},
+	"position": {"Item1":74,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -1087,7 +1084,7 @@
 	},
 "Object135":
 	{
-	"position": {"Item1":21,"Item2":-5},
+	"position": {"Item1":75,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -1095,7 +1092,7 @@
 	},
 "Object136":
 	{
-	"position": {"Item1":22,"Item2":-5},
+	"position": {"Item1":76,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1103,31 +1100,31 @@
 	},
 "Object137":
 	{
-	"position": {"Item1":23,"Item2":-5},
+	"position": {"Item1":77,"Item2":-2},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object138":
 	{
-	"position": {"Item1":24,"Item2":-5},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":78,"Item2":-2},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object139":
 	{
-	"position": {"Item1":0,"Item2":-6},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":79,"Item2":-2},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object140":
 	{
-	"position": {"Item1":1,"Item2":-6},
+	"position": {"Item1":80,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1135,7 +1132,7 @@
 	},
 "Object141":
 	{
-	"position": {"Item1":2,"Item2":-6},
+	"position": {"Item1":81,"Item2":-2},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1143,23 +1140,23 @@
 	},
 "Object142":
 	{
-	"position": {"Item1":3,"Item2":-6},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":82,"Item2":-2},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object143":
 	{
-	"position": {"Item1":4,"Item2":-6},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":0,"Item2":-3},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object144":
 	{
-	"position": {"Item1":5,"Item2":-6},
+	"position": {"Item1":1,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1167,25 +1164,23 @@
 	},
 "Object145":
 	{
-	"damage": 2,
-	"health": 6,
-	"position": {"Item1":5,"Item2":-7},
-	"defaultName": "Skeleton",
-	"defaultSpriteId": 316,
-	"decectable": true,
-	"z": -1
-	},
-"Object146":
-	{
-	"position": {"Item1":6,"Item2":-6},
+	"position": {"Item1":2,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
+"Object146":
+	{
+	"position": {"Item1":3,"Item2":-3},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
 "Object147":
 	{
-	"position": {"Item1":7,"Item2":-6},
+	"position": {"Item1":4,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1193,23 +1188,23 @@
 	},
 "Object148":
 	{
-	"position": {"Item1":8,"Item2":-6},
+	"position": {"Item1":5,"Item2":-3},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object149":
 	{
-	"position": {"Item1":9,"Item2":-6},
+	"position": {"Item1":6,"Item2":-3},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object150":
 	{
-	"position": {"Item1":10,"Item2":-6},
+	"position": {"Item1":7,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1217,7 +1212,7 @@
 	},
 "Object151":
 	{
-	"position": {"Item1":11,"Item2":-6},
+	"position": {"Item1":8,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -1225,23 +1220,23 @@
 	},
 "Object152":
 	{
-	"position": {"Item1":12,"Item2":-6},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":9,"Item2":-3},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object153":
 	{
-	"position": {"Item1":17,"Item2":-6},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":10,"Item2":-3},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object154":
 	{
-	"position": {"Item1":18,"Item2":-6},
+	"position": {"Item1":11,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -1249,15 +1244,17 @@
 	},
 "Object155":
 	{
-	"position": {"Item1":19,"Item2":-6},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
-	"z": 0
+	"damage": 2,
+	"health": 6,
+	"position": {"Item1":5,"Item2":-3},
+	"defaultName": "Skeleton",
+	"defaultSpriteId": 316,
+	"decectable": true,
+	"z": -1
 	},
 "Object156":
 	{
-	"position": {"Item1":20,"Item2":-6},
+	"position": {"Item1":12,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -1265,15 +1262,15 @@
 	},
 "Object157":
 	{
-	"position": {"Item1":21,"Item2":-6},
+	"position": {"Item1":13,"Item2":-3},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object158":
 	{
-	"position": {"Item1":22,"Item2":-6},
+	"position": {"Item1":14,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1281,7 +1278,7 @@
 	},
 "Object159":
 	{
-	"position": {"Item1":23,"Item2":-6},
+	"position": {"Item1":15,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -1289,31 +1286,31 @@
 	},
 "Object160":
 	{
-	"position": {"Item1":24,"Item2":-6},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object161":
-	{
-	"position": {"Item1":0,"Item2":-7},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object162":
-	{
-	"position": {"Item1":1,"Item2":-7},
+	"position": {"Item1":16,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
+"Object161":
+	{
+	"position": {"Item1":17,"Item2":-3},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object162":
+	{
+	"position": {"Item1":18,"Item2":-3},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
 "Object163":
 	{
-	"position": {"Item1":2,"Item2":-7},
+	"position": {"Item1":19,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1321,23 +1318,23 @@
 	},
 "Object164":
 	{
-	"position": {"Item1":3,"Item2":-7},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
-	"z": 0
-	},
-"Object165":
-	{
-	"position": {"Item1":4,"Item2":-7},
+	"position": {"Item1":20,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
+"Object165":
+	{
+	"position": {"Item1":21,"Item2":-3},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
 "Object166":
 	{
-	"position": {"Item1":5,"Item2":-7},
+	"position": {"Item1":22,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1345,47 +1342,47 @@
 	},
 "Object167":
 	{
-	"position": {"Item1":6,"Item2":-7},
+	"position": {"Item1":23,"Item2":-3},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object168":
 	{
-	"position": {"Item1":7,"Item2":-7},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":24,"Item2":-3},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object169":
 	{
-	"position": {"Item1":8,"Item2":-7},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":56,"Item2":-3},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object170":
 	{
-	"position": {"Item1":9,"Item2":-7},
+	"position": {"Item1":57,"Item2":-3},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object171":
 	{
-	"position": {"Item1":10,"Item2":-7},
+	"position": {"Item1":58,"Item2":-3},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object172":
 	{
-	"position": {"Item1":11,"Item2":-7},
+	"position": {"Item1":59,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1393,39 +1390,39 @@
 	},
 "Object173":
 	{
-	"position": {"Item1":12,"Item2":-7},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":60,"Item2":-3},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object174":
 	{
-	"position": {"Item1":17,"Item2":-7},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":61,"Item2":-3},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object175":
 	{
-	"position": {"Item1":18,"Item2":-7},
+	"position": {"Item1":62,"Item2":-3},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object176":
 	{
-	"position": {"Item1":19,"Item2":-7},
+	"position": {"Item1":63,"Item2":-3},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object177":
 	{
-	"position": {"Item1":20,"Item2":-7},
+	"position": {"Item1":64,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -1433,23 +1430,23 @@
 	},
 "Object178":
 	{
-	"position": {"Item1":21,"Item2":-7},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
-	"z": 0
-	},
-"Object179":
-	{
-	"position": {"Item1":22,"Item2":-7},
+	"position": {"Item1":65,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
+"Object179":
+	{
+	"position": {"Item1":66,"Item2":-3},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
 "Object180":
 	{
-	"position": {"Item1":23,"Item2":-7},
+	"position": {"Item1":67,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1457,23 +1454,23 @@
 	},
 "Object181":
 	{
-	"position": {"Item1":24,"Item2":-7},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":68,"Item2":-3},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object182":
 	{
-	"position": {"Item1":0,"Item2":-8},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":69,"Item2":-3},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object183":
 	{
-	"position": {"Item1":1,"Item2":-8},
+	"position": {"Item1":70,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -1481,23 +1478,23 @@
 	},
 "Object184":
 	{
-	"position": {"Item1":2,"Item2":-8},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
-	"z": 0
-	},
-"Object185":
-	{
-	"position": {"Item1":3,"Item2":-8},
+	"position": {"Item1":71,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
+"Object185":
+	{
+	"position": {"Item1":72,"Item2":-3},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
 "Object186":
 	{
-	"position": {"Item1":4,"Item2":-8},
+	"position": {"Item1":73,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1505,7 +1502,7 @@
 	},
 "Object187":
 	{
-	"position": {"Item1":5,"Item2":-8},
+	"position": {"Item1":74,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1513,7 +1510,7 @@
 	},
 "Object188":
 	{
-	"position": {"Item1":6,"Item2":-8},
+	"position": {"Item1":75,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1521,23 +1518,23 @@
 	},
 "Object189":
 	{
-	"position": {"Item1":7,"Item2":-8},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
-	"z": 0
-	},
-"Object190":
-	{
-	"position": {"Item1":8,"Item2":-8},
+	"position": {"Item1":76,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
+"Object190":
+	{
+	"position": {"Item1":77,"Item2":-3},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
 "Object191":
 	{
-	"position": {"Item1":9,"Item2":-8},
+	"position": {"Item1":78,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1545,15 +1542,15 @@
 	},
 "Object192":
 	{
-	"position": {"Item1":10,"Item2":-8},
+	"position": {"Item1":79,"Item2":-3},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object193":
 	{
-	"position": {"Item1":11,"Item2":-8},
+	"position": {"Item1":80,"Item2":-3},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1561,15 +1558,15 @@
 	},
 "Object194":
 	{
-	"position": {"Item1":12,"Item2":-8},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":81,"Item2":-3},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object195":
 	{
-	"position": {"Item1":17,"Item2":-8},
+	"position": {"Item1":82,"Item2":-3},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -1577,15 +1574,15 @@
 	},
 "Object196":
 	{
-	"position": {"Item1":18,"Item2":-8},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":0,"Item2":-4},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object197":
 	{
-	"position": {"Item1":19,"Item2":-8},
+	"position": {"Item1":1,"Item2":-4},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1593,31 +1590,31 @@
 	},
 "Object198":
 	{
-	"position": {"Item1":20,"Item2":-8},
+	"position": {"Item1":2,"Item2":-4},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object199":
 	{
-	"position": {"Item1":21,"Item2":-8},
+	"position": {"Item1":3,"Item2":-4},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object200":
 	{
-	"position": {"Item1":22,"Item2":-8},
+	"position": {"Item1":4,"Item2":-4},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object201":
 	{
-	"position": {"Item1":23,"Item2":-8},
+	"position": {"Item1":5,"Item2":-4},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1625,63 +1622,65 @@
 	},
 "Object202":
 	{
-	"position": {"Item1":24,"Item2":-8},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object203":
-	{
-	"position": {"Item1":0,"Item2":-9},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object204":
-	{
-	"position": {"Item1":1,"Item2":-9},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object205":
-	{
-	"position": {"Item1":2,"Item2":-9},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object206":
-	{
-	"position": {"Item1":3,"Item2":-9},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object207":
-	{
-	"position": {"Item1":4,"Item2":-9},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object208":
-	{
-	"position": {"Item1":5,"Item2":-9},
+	"position": {"Item1":6,"Item2":-4},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
+"Object203":
+	{
+	"position": {"Item1":7,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object204":
+	{
+	"position": {"Item1":8,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object205":
+	{
+	"position": {"Item1":9,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object206":
+	{
+	"position": {"Item1":10,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object207":
+	{
+	"position": {"Item1":11,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object208":
+	{
+	"damage": 2,
+	"health": 6,
+	"position": {"Item1":4,"Item2":-1},
+	"defaultName": "Skeleton",
+	"defaultSpriteId": 316,
+	"decectable": true,
+	"z": -1
+	},
 "Object209":
 	{
-	"position": {"Item1":6,"Item2":-9},
+	"position": {"Item1":12,"Item2":-4},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1689,79 +1688,79 @@
 	},
 "Object210":
 	{
-	"position": {"Item1":7,"Item2":-9},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":13,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object211":
 	{
-	"position": {"Item1":8,"Item2":-9},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":14,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object212":
 	{
-	"position": {"Item1":9,"Item2":-9},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":15,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object213":
 	{
-	"position": {"Item1":10,"Item2":-9},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":16,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object214":
 	{
-	"position": {"Item1":11,"Item2":-9},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":17,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object215":
 	{
-	"position": {"Item1":12,"Item2":-9},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":18,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object216":
 	{
-	"position": {"Item1":17,"Item2":-9},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":19,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object217":
 	{
-	"position": {"Item1":18,"Item2":-9},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":20,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object218":
 	{
-	"position": {"Item1":19,"Item2":-9},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":21,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object219":
 	{
-	"position": {"Item1":20,"Item2":-9},
+	"position": {"Item1":22,"Item2":-4},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -1769,15 +1768,15 @@
 	},
 "Object220":
 	{
-	"position": {"Item1":21,"Item2":-9},
+	"position": {"Item1":23,"Item2":-4},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object221":
 	{
-	"position": {"Item1":22,"Item2":-9},
+	"position": {"Item1":24,"Item2":-4},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -1785,7 +1784,7 @@
 	},
 "Object222":
 	{
-	"position": {"Item1":23,"Item2":-9},
+	"position": {"Item1":56,"Item2":-4},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -1793,23 +1792,23 @@
 	},
 "Object223":
 	{
-	"position": {"Item1":24,"Item2":-9},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":57,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object224":
 	{
-	"position": {"Item1":4,"Item2":-10},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":58,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object225":
 	{
-	"position": {"Item1":5,"Item2":-10},
+	"position": {"Item1":59,"Item2":-4},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -1817,31 +1816,31 @@
 	},
 "Object226":
 	{
-	"position": {"Item1":6,"Item2":-10},
+	"position": {"Item1":60,"Item2":-4},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object227":
 	{
-	"position": {"Item1":7,"Item2":-10},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":61,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object228":
 	{
-	"position": {"Item1":19,"Item2":-10},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":62,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object229":
 	{
-	"position": {"Item1":20,"Item2":-10},
+	"position": {"Item1":63,"Item2":-4},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -1849,71 +1848,71 @@
 	},
 "Object230":
 	{
-	"position": {"Item1":21,"Item2":-10},
+	"position": {"Item1":64,"Item2":-4},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object231":
 	{
-	"position": {"Item1":22,"Item2":-10},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":65,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object232":
 	{
-	"position": {"Item1":4,"Item2":-11},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":66,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object233":
 	{
-	"position": {"Item1":5,"Item2":-11},
+	"position": {"Item1":67,"Item2":-4},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object234":
 	{
-	"position": {"Item1":6,"Item2":-11},
+	"position": {"Item1":68,"Item2":-4},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object235":
 	{
-	"position": {"Item1":7,"Item2":-11},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":69,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object236":
 	{
-	"position": {"Item1":19,"Item2":-11},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":70,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object237":
 	{
-	"position": {"Item1":20,"Item2":-11},
+	"position": {"Item1":71,"Item2":-4},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object238":
 	{
-	"position": {"Item1":21,"Item2":-11},
+	"position": {"Item1":72,"Item2":-4},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -1921,23 +1920,23 @@
 	},
 "Object239":
 	{
-	"position": {"Item1":22,"Item2":-11},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":73,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object240":
 	{
-	"position": {"Item1":4,"Item2":-12},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":74,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object241":
 	{
-	"position": {"Item1":5,"Item2":-12},
+	"position": {"Item1":75,"Item2":-4},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1945,7 +1944,7 @@
 	},
 "Object242":
 	{
-	"position": {"Item1":6,"Item2":-12},
+	"position": {"Item1":76,"Item2":-4},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -1953,119 +1952,119 @@
 	},
 "Object243":
 	{
-	"position": {"Item1":7,"Item2":-12},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object244":
-	{
-	"position": {"Item1":17,"Item2":-12},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object245":
-	{
-	"position": {"Item1":18,"Item2":-12},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object246":
-	{
-	"position": {"Item1":19,"Item2":-12},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object247":
-	{
-	"position": {"Item1":20,"Item2":-12},
-	"defaultName": "Door",
-	"defaultSpriteId": 441,
-	"decectable": true,
-	"z": -1
-	},
-"Object248":
-	{
-	"position": {"Item1":20,"Item2":-12},
+	"position": {"Item1":77,"Item2":-4},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
+"Object244":
+	{
+	"position": {"Item1":78,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object245":
+	{
+	"position": {"Item1":79,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object246":
+	{
+	"position": {"Item1":80,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object247":
+	{
+	"position": {"Item1":81,"Item2":-4},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object248":
+	{
+	"position": {"Item1":82,"Item2":-4},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
 "Object249":
 	{
-	"position": {"Item1":21,"Item2":-12},
-	"defaultName": "Door",
-	"defaultSpriteId": 441,
+	"position": {"Item1":0,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
 	"decectable": true,
-	"z": -1
+	"z": 0
 	},
 "Object250":
 	{
-	"position": {"Item1":21,"Item2":-12},
+	"position": {"Item1":1,"Item2":-5},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object251":
 	{
-	"position": {"Item1":22,"Item2":-12},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":2,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object252":
 	{
-	"position": {"Item1":23,"Item2":-12},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":3,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object253":
 	{
-	"position": {"Item1":24,"Item2":-12},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":4,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object254":
 	{
-	"position": {"Item1":2,"Item2":-13},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":5,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object255":
 	{
-	"position": {"Item1":3,"Item2":-13},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":6,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object256":
 	{
-	"position": {"Item1":4,"Item2":-13},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":7,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object257":
 	{
-	"position": {"Item1":5,"Item2":-13},
+	"position": {"Item1":8,"Item2":-5},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -2073,31 +2072,31 @@
 	},
 "Object258":
 	{
-	"position": {"Item1":6,"Item2":-13},
+	"position": {"Item1":9,"Item2":-5},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object259":
 	{
-	"position": {"Item1":7,"Item2":-13},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":10,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object260":
 	{
-	"position": {"Item1":8,"Item2":-13},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":11,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object261":
 	{
-	"position": {"Item1":9,"Item2":-13},
+	"position": {"Item1":12,"Item2":-5},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -2105,7 +2104,7 @@
 	},
 "Object262":
 	{
-	"position": {"Item1":10,"Item2":-13},
+	"position": {"Item1":13,"Item2":-5},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -2113,7 +2112,7 @@
 	},
 "Object263":
 	{
-	"position": {"Item1":17,"Item2":-13},
+	"position": {"Item1":14,"Item2":-5},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -2121,31 +2120,31 @@
 	},
 "Object264":
 	{
-	"position": {"Item1":18,"Item2":-13},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":15,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object265":
 	{
-	"position": {"Item1":19,"Item2":-13},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":16,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object266":
 	{
-	"position": {"Item1":20,"Item2":-13},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":17,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object267":
 	{
-	"position": {"Item1":21,"Item2":-13},
+	"position": {"Item1":18,"Item2":-5},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -2153,7 +2152,7 @@
 	},
 "Object268":
 	{
-	"position": {"Item1":22,"Item2":-13},
+	"position": {"Item1":19,"Item2":-5},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -2161,98 +2160,95 @@
 	},
 "Object269":
 	{
-	"position": {"Item1":23,"Item2":-13},
+	"position": {"Item1":20,"Item2":-5},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object270":
 	{
-	"position": {"Item1":24,"Item2":-13},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":21,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object271":
 	{
-	"position": {"Item1":2,"Item2":-14},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":22,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object272":
 	{
-	"position": {"Item1":3,"Item2":-14},
+	"position": {"Item1":23,"Item2":-5},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object273":
 	{
-	"position": {"Item1":4,"Item2":-14},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":24,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object274":
 	{
-	"damage": 5,
-	"health": 10,
-	"inventory": {"Items":[]},
-	"position": {"Item1":5,"Item2":-14},
-	"defaultName": "Player",
-	"defaultSpriteId": 24,
+	"position": {"Item1":25,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
 	"decectable": true,
-	"z": -1
+	"z": 0
 	},
 "Object275":
 	{
-	"position": {"Item1":5,"Item2":-14},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":26,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object276":
 	{
-	"position": {"Item1":6,"Item2":-14},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":27,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object277":
 	{
-	"position": {"Item1":7,"Item2":-14},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":28,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object278":
 	{
-	"position": {"Item1":8,"Item2":-14},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":29,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object279":
 	{
-	"position": {"Item1":9,"Item2":-14},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":30,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object280":
 	{
-	"position": {"Item1":10,"Item2":-14},
+	"position": {"Item1":31,"Item2":-5},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -2260,7 +2256,7 @@
 	},
 "Object281":
 	{
-	"position": {"Item1":17,"Item2":-14},
+	"position": {"Item1":32,"Item2":-5},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -2268,55 +2264,55 @@
 	},
 "Object282":
 	{
-	"position": {"Item1":18,"Item2":-14},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":33,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object283":
 	{
-	"position": {"Item1":19,"Item2":-14},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":34,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object284":
 	{
-	"position": {"Item1":20,"Item2":-14},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":35,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object285":
 	{
-	"position": {"Item1":21,"Item2":-14},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":36,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object286":
 	{
-	"position": {"Item1":22,"Item2":-14},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":37,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object287":
 	{
-	"position": {"Item1":23,"Item2":-14},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":38,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object288":
 	{
-	"position": {"Item1":24,"Item2":-14},
+	"position": {"Item1":39,"Item2":-5},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -2324,7 +2320,7 @@
 	},
 "Object289":
 	{
-	"position": {"Item1":2,"Item2":-15},
+	"position": {"Item1":40,"Item2":-5},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -2332,63 +2328,63 @@
 	},
 "Object290":
 	{
-	"position": {"Item1":3,"Item2":-15},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":41,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object291":
 	{
-	"position": {"Item1":4,"Item2":-15},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":42,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object292":
 	{
-	"position": {"Item1":5,"Item2":-15},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":43,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object293":
 	{
-	"position": {"Item1":6,"Item2":-15},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":44,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object294":
 	{
-	"position": {"Item1":7,"Item2":-15},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":45,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object295":
 	{
-	"position": {"Item1":8,"Item2":-15},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":46,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object296":
 	{
-	"position": {"Item1":9,"Item2":-15},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":47,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object297":
 	{
-	"position": {"Item1":10,"Item2":-15},
+	"position": {"Item1":48,"Item2":-5},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -2396,7 +2392,7 @@
 	},
 "Object298":
 	{
-	"position": {"Item1":17,"Item2":-15},
+	"position": {"Item1":49,"Item2":-5},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -2404,55 +2400,55 @@
 	},
 "Object299":
 	{
-	"position": {"Item1":18,"Item2":-15},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":50,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object300":
 	{
-	"position": {"Item1":19,"Item2":-15},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":51,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object301":
 	{
-	"position": {"Item1":20,"Item2":-15},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":52,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object302":
 	{
-	"position": {"Item1":21,"Item2":-15},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":53,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object303":
 	{
-	"position": {"Item1":22,"Item2":-15},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":54,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object304":
 	{
-	"position": {"Item1":23,"Item2":-15},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":55,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object305":
 	{
-	"position": {"Item1":24,"Item2":-15},
+	"position": {"Item1":56,"Item2":-5},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -2460,31 +2456,31 @@
 	},
 "Object306":
 	{
-	"position": {"Item1":2,"Item2":-16},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object307":
-	{
-	"position": {"Item1":3,"Item2":-16},
+	"position": {"Item1":57,"Item2":-5},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
-"Object308":
+"Object307":
 	{
-	"position": {"Item1":4,"Item2":-16},
+	"position": {"Item1":58,"Item2":-5},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
+"Object308":
+	{
+	"position": {"Item1":59,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
 "Object309":
 	{
-	"position": {"Item1":5,"Item2":-16},
+	"position": {"Item1":60,"Item2":-5},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -2492,55 +2488,55 @@
 	},
 "Object310":
 	{
-	"position": {"Item1":6,"Item2":-16},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
-	"z": 0
-	},
-"Object311":
-	{
-	"position": {"Item1":7,"Item2":-16},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
-	"z": 0
-	},
-"Object312":
-	{
-	"position": {"Item1":8,"Item2":-16},
+	"position": {"Item1":61,"Item2":-5},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
-"Object313":
+"Object311":
 	{
-	"position": {"Item1":9,"Item2":-16},
+	"position": {"Item1":62,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object312":
+	{
+	"position": {"Item1":63,"Item2":-5},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
+"Object313":
+	{
+	"position": {"Item1":64,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
 "Object314":
 	{
-	"position": {"Item1":10,"Item2":-16},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":65,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object315":
 	{
-	"position": {"Item1":17,"Item2":-16},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":66,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object316":
 	{
-	"position": {"Item1":18,"Item2":-16},
+	"position": {"Item1":67,"Item2":-5},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -2548,33 +2544,31 @@
 	},
 "Object317":
 	{
-	"position": {"Item1":19,"Item2":-16},
+	"position": {"Item1":68,"Item2":-5},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object318":
 	{
-	"position": {"Item1":20,"Item2":-16},
+	"position": {"Item1":69,"Item2":-5},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object319":
 	{
-	"damage": 0,
-	"health": 10,
-	"position": {"Item1":21,"Item2":-16},
-	"defaultName": "Pig",
-	"defaultSpriteId": 364,
-	"decectable": true,
-	"z": -1
+	"position": {"Item1":70,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
 	},
 "Object320":
 	{
-	"position": {"Item1":21,"Item2":-16},
+	"position": {"Item1":71,"Item2":-5},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -2582,7 +2576,7 @@
 	},
 "Object321":
 	{
-	"position": {"Item1":22,"Item2":-16},
+	"position": {"Item1":72,"Item2":-5},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -2590,31 +2584,31 @@
 	},
 "Object322":
 	{
-	"position": {"Item1":23,"Item2":-16},
+	"position": {"Item1":73,"Item2":-5},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object323":
 	{
-	"position": {"Item1":24,"Item2":-16},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":74,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object324":
 	{
-	"position": {"Item1":2,"Item2":-17},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":75,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object325":
 	{
-	"position": {"Item1":3,"Item2":-17},
+	"position": {"Item1":76,"Item2":-5},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -2622,7 +2616,7 @@
 	},
 "Object326":
 	{
-	"position": {"Item1":4,"Item2":-17},
+	"position": {"Item1":77,"Item2":-5},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -2630,23 +2624,23 @@
 	},
 "Object327":
 	{
-	"position": {"Item1":5,"Item2":-17},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
-	"z": 0
-	},
-"Object328":
-	{
-	"position": {"Item1":6,"Item2":-17},
+	"position": {"Item1":78,"Item2":-5},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
+"Object328":
+	{
+	"position": {"Item1":79,"Item2":-5},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
 "Object329":
 	{
-	"position": {"Item1":7,"Item2":-17},
+	"position": {"Item1":80,"Item2":-5},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -2654,7 +2648,7 @@
 	},
 "Object330":
 	{
-	"position": {"Item1":8,"Item2":-17},
+	"position": {"Item1":81,"Item2":-5},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -2662,15 +2656,15 @@
 	},
 "Object331":
 	{
-	"position": {"Item1":9,"Item2":-17},
-	"defaultName": "Floor",
-	"defaultSpriteId": 5,
-	"decectable": false,
+	"position": {"Item1":82,"Item2":-5},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object332":
 	{
-	"position": {"Item1":10,"Item2":-17},
+	"position": {"Item1":0,"Item2":-6},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -2678,15 +2672,15 @@
 	},
 "Object333":
 	{
-	"position": {"Item1":17,"Item2":-17},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":1,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object334":
 	{
-	"position": {"Item1":18,"Item2":-17},
+	"position": {"Item1":2,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -2694,15 +2688,15 @@
 	},
 "Object335":
 	{
-	"position": {"Item1":19,"Item2":-17},
+	"position": {"Item1":3,"Item2":-6},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object336":
 	{
-	"position": {"Item1":20,"Item2":-17},
+	"position": {"Item1":4,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -2710,7 +2704,7 @@
 	},
 "Object337":
 	{
-	"position": {"Item1":21,"Item2":-17},
+	"position": {"Item1":5,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -2718,7 +2712,7 @@
 	},
 "Object338":
 	{
-	"position": {"Item1":22,"Item2":-17},
+	"position": {"Item1":6,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -2726,7 +2720,7 @@
 	},
 "Object339":
 	{
-	"position": {"Item1":23,"Item2":-17},
+	"position": {"Item1":7,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -2734,23 +2728,23 @@
 	},
 "Object340":
 	{
-	"position": {"Item1":24,"Item2":-17},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":8,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object341":
 	{
-	"position": {"Item1":2,"Item2":-18},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":9,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object342":
 	{
-	"position": {"Item1":3,"Item2":-18},
+	"position": {"Item1":10,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -2758,71 +2752,71 @@
 	},
 "Object343":
 	{
-	"position": {"Item1":4,"Item2":-18},
+	"position": {"Item1":11,"Item2":-6},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object344":
 	{
-	"position": {"Item1":5,"Item2":-18},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":12,"Item2":-6},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object345":
 	{
-	"position": {"Item1":6,"Item2":-18},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
+	"position": {"Item1":17,"Item2":-6},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
 	"z": 0
 	},
 "Object346":
 	{
-	"position": {"Item1":7,"Item2":-18},
+	"position": {"Item1":18,"Item2":-6},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object347":
 	{
-	"position": {"Item1":8,"Item2":-18},
-	"defaultName": "Floor",
-	"defaultSpriteId": 4,
-	"decectable": false,
-	"z": 0
-	},
-"Object348":
-	{
-	"position": {"Item1":9,"Item2":-18},
+	"position": {"Item1":19,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
+"Object348":
+	{
+	"position": {"Item1":20,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
 "Object349":
 	{
-	"position": {"Item1":10,"Item2":-18},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":21,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object350":
 	{
-	"position": {"Item1":17,"Item2":-18},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":22,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object351":
 	{
-	"position": {"Item1":18,"Item2":-18},
+	"position": {"Item1":23,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -2830,31 +2824,31 @@
 	},
 "Object352":
 	{
-	"position": {"Item1":19,"Item2":-18},
+	"position": {"Item1":24,"Item2":-6},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object353":
 	{
-	"position": {"Item1":20,"Item2":-18},
+	"position": {"Item1":25,"Item2":-6},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object354":
 	{
-	"position": {"Item1":21,"Item2":-18},
+	"position": {"Item1":26,"Item2":-6},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object355":
 	{
-	"position": {"Item1":22,"Item2":-18},
+	"position": {"Item1":27,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -2862,31 +2856,31 @@
 	},
 "Object356":
 	{
-	"position": {"Item1":23,"Item2":-18},
+	"position": {"Item1":28,"Item2":-6},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object357":
 	{
-	"position": {"Item1":24,"Item2":-18},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":29,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object358":
 	{
-	"position": {"Item1":2,"Item2":-19},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":30,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object359":
 	{
-	"position": {"Item1":3,"Item2":-19},
+	"position": {"Item1":31,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -2894,31 +2888,31 @@
 	},
 "Object360":
 	{
-	"position": {"Item1":4,"Item2":-19},
+	"position": {"Item1":32,"Item2":-6},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object361":
 	{
-	"position": {"Item1":5,"Item2":-19},
+	"position": {"Item1":33,"Item2":-6},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object362":
 	{
-	"position": {"Item1":6,"Item2":-19},
+	"position": {"Item1":34,"Item2":-6},
 	"defaultName": "Floor",
-	"defaultSpriteId": 4,
+	"defaultSpriteId": 5,
 	"decectable": false,
 	"z": 0
 	},
 "Object363":
 	{
-	"position": {"Item1":7,"Item2":-19},
+	"position": {"Item1":35,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -2926,55 +2920,57 @@
 	},
 "Object364":
 	{
-	"position": {"Item1":8,"Item2":-19},
+	"damage": 2,
+	"health": 6,
+	"position": {"Item1":29,"Item2":-7},
+	"defaultName": "Skeleton",
+	"defaultSpriteId": 316,
+	"decectable": true,
+	"z": -1
+	},
+"Object365":
+	{
+	"position": {"Item1":36,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
-"Object365":
-	{
-	"position": {"Item1":9,"Item2":-19},
-	"defaultName": "Axe",
-	"defaultSpriteId": 425,
-	"decectable": false,
-	"z": -1
-	},
 "Object366":
 	{
-	"position": {"Item1":9,"Item2":-19},
+	"position": {"Item1":37,"Item2":-6},
 	"defaultName": "Floor",
-	"defaultSpriteId": 5,
+	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
 "Object367":
 	{
-	"position": {"Item1":10,"Item2":-19},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object368":
-	{
-	"position": {"Item1":17,"Item2":-19},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
-	"z": 0
-	},
-"Object369":
-	{
-	"position": {"Item1":18,"Item2":-19},
+	"position": {"Item1":38,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
 	"z": 0
 	},
+"Object368":
+	{
+	"position": {"Item1":39,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object369":
+	{
+	"position": {"Item1":40,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
 "Object370":
 	{
-	"position": {"Item1":19,"Item2":-19},
+	"position": {"Item1":41,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -2982,7 +2978,7 @@
 	},
 "Object371":
 	{
-	"position": {"Item1":20,"Item2":-19},
+	"position": {"Item1":42,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -2990,7 +2986,7 @@
 	},
 "Object372":
 	{
-	"position": {"Item1":21,"Item2":-19},
+	"position": {"Item1":43,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -2998,7 +2994,7 @@
 	},
 "Object373":
 	{
-	"position": {"Item1":22,"Item2":-19},
+	"position": {"Item1":44,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 4,
 	"decectable": false,
@@ -3006,7 +3002,7 @@
 	},
 "Object374":
 	{
-	"position": {"Item1":23,"Item2":-19},
+	"position": {"Item1":45,"Item2":-6},
 	"defaultName": "Floor",
 	"defaultSpriteId": 5,
 	"decectable": false,
@@ -3014,15 +3010,15 @@
 	},
 "Object375":
 	{
-	"position": {"Item1":24,"Item2":-19},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":46,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object376":
 	{
-	"position": {"Item1":2,"Item2":-20},
+	"position": {"Item1":47,"Item2":-6},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -3030,7 +3026,7 @@
 	},
 "Object377":
 	{
-	"position": {"Item1":3,"Item2":-20},
+	"position": {"Item1":48,"Item2":-6},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -3038,7 +3034,7 @@
 	},
 "Object378":
 	{
-	"position": {"Item1":4,"Item2":-20},
+	"position": {"Item1":49,"Item2":-6},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -3046,7 +3042,7 @@
 	},
 "Object379":
 	{
-	"position": {"Item1":5,"Item2":-20},
+	"position": {"Item1":50,"Item2":-6},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -3054,7 +3050,7 @@
 	},
 "Object380":
 	{
-	"position": {"Item1":6,"Item2":-20},
+	"position": {"Item1":51,"Item2":-6},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
@@ -3062,95 +3058,3385 @@
 	},
 "Object381":
 	{
-	"position": {"Item1":7,"Item2":-20},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":52,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object382":
 	{
-	"position": {"Item1":8,"Item2":-20},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":53,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object383":
 	{
-	"position": {"Item1":9,"Item2":-20},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":54,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object384":
 	{
-	"position": {"Item1":10,"Item2":-20},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":55,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object385":
 	{
-	"position": {"Item1":17,"Item2":-20},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":56,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object386":
 	{
-	"position": {"Item1":18,"Item2":-20},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":57,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object387":
 	{
-	"position": {"Item1":19,"Item2":-20},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":58,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object388":
 	{
-	"position": {"Item1":20,"Item2":-20},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":59,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object389":
 	{
-	"position": {"Item1":21,"Item2":-20},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":60,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
 	"z": 0
 	},
 "Object390":
 	{
-	"position": {"Item1":22,"Item2":-20},
-	"defaultName": "Wall",
-	"defaultSpriteId": 825,
-	"decectable": true,
+	"position": {"Item1":61,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
 	"z": 0
 	},
 "Object391":
 	{
-	"position": {"Item1":23,"Item2":-20},
+	"position": {"Item1":62,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object392":
+	{
+	"position": {"Item1":63,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object393":
+	{
+	"position": {"Item1":64,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object394":
+	{
+	"position": {"Item1":65,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object395":
+	{
+	"position": {"Item1":66,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object396":
+	{
+	"position": {"Item1":67,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object397":
+	{
+	"position": {"Item1":68,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object398":
+	{
+	"position": {"Item1":69,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object399":
+	{
+	"position": {"Item1":70,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object400":
+	{
+	"position": {"Item1":71,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object401":
+	{
+	"position": {"Item1":72,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object402":
+	{
+	"position": {"Item1":73,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object403":
+	{
+	"position": {"Item1":74,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object404":
+	{
+	"position": {"Item1":75,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object405":
+	{
+	"position": {"Item1":76,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object406":
+	{
+	"position": {"Item1":77,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object407":
+	{
+	"position": {"Item1":78,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object408":
+	{
+	"position": {"Item1":79,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object409":
+	{
+	"position": {"Item1":80,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object410":
+	{
+	"position": {"Item1":81,"Item2":-6},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object411":
+	{
+	"position": {"Item1":82,"Item2":-6},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,
 	"z": 0
 	},
-"Object392":
+"Object412":
 	{
-	"position": {"Item1":24,"Item2":-20},
+	"position": {"Item1":0,"Item2":-7},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object413":
+	{
+	"position": {"Item1":1,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object414":
+	{
+	"position": {"Item1":2,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object415":
+	{
+	"position": {"Item1":3,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object416":
+	{
+	"position": {"Item1":4,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object417":
+	{
+	"position": {"Item1":5,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object418":
+	{
+	"position": {"Item1":6,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object419":
+	{
+	"position": {"Item1":7,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object420":
+	{
+	"position": {"Item1":8,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object421":
+	{
+	"position": {"Item1":9,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object422":
+	{
+	"position": {"Item1":10,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object423":
+	{
+	"position": {"Item1":11,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object424":
+	{
+	"position": {"Item1":12,"Item2":-7},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object425":
+	{
+	"position": {"Item1":17,"Item2":-7},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object426":
+	{
+	"position": {"Item1":18,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object427":
+	{
+	"position": {"Item1":19,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object428":
+	{
+	"damage": 1,
+	"health": 10,
+	"position": {"Item1":4,"Item2":-4},
+	"defaultName": "Blob",
+	"defaultSpriteId": 315,
+	"decectable": true,
+	"z": -1
+	},
+"Object429":
+	{
+	"position": {"Item1":20,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object430":
+	{
+	"position": {"Item1":21,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object431":
+	{
+	"position": {"Item1":22,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object432":
+	{
+	"position": {"Item1":23,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object433":
+	{
+	"position": {"Item1":24,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object434":
+	{
+	"position": {"Item1":25,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object435":
+	{
+	"position": {"Item1":26,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object436":
+	{
+	"position": {"Item1":27,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object437":
+	{
+	"position": {"Item1":28,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object438":
+	{
+	"position": {"Item1":29,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object439":
+	{
+	"position": {"Item1":30,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object440":
+	{
+	"position": {"Item1":31,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object441":
+	{
+	"position": {"Item1":32,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object442":
+	{
+	"position": {"Item1":33,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object443":
+	{
+	"position": {"Item1":34,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object444":
+	{
+	"position": {"Item1":35,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object445":
+	{
+	"position": {"Item1":36,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object446":
+	{
+	"position": {"Item1":37,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object447":
+	{
+	"position": {"Item1":38,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object448":
+	{
+	"position": {"Item1":39,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object449":
+	{
+	"damage": 2,
+	"health": 6,
+	"position": {"Item1":34,"Item2":-6},
+	"defaultName": "Skeleton",
+	"defaultSpriteId": 316,
+	"decectable": true,
+	"z": -1
+	},
+"Object450":
+	{
+	"position": {"Item1":40,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object451":
+	{
+	"position": {"Item1":41,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object452":
+	{
+	"position": {"Item1":42,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object453":
+	{
+	"position": {"Item1":43,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object454":
+	{
+	"position": {"Item1":44,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object455":
+	{
+	"position": {"Item1":45,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object456":
+	{
+	"position": {"Item1":46,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object457":
+	{
+	"position": {"Item1":47,"Item2":-7},
+	"defaultName": "Door",
+	"defaultSpriteId": 441,
+	"decectable": true,
+	"z": -1
+	},
+"Object458":
+	{
+	"position": {"Item1":47,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object459":
+	{
+	"position": {"Item1":48,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object460":
+	{
+	"position": {"Item1":49,"Item2":-7},
+	"defaultName": "BeastSlayer",
+	"defaultSpriteId": 416,
+	"decectable": false,
+	"z": -1
+	},
+"Object461":
+	{
+	"position": {"Item1":49,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object462":
+	{
+	"position": {"Item1":50,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object463":
+	{
+	"position": {"Item1":51,"Item2":-7},
+	"defaultName": "BossDoor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object464":
+	{
+	"position": {"Item1":51,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object465":
+	{
+	"position": {"Item1":52,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object466":
+	{
+	"position": {"Item1":53,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object467":
+	{
+	"position": {"Item1":54,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object468":
+	{
+	"position": {"Item1":55,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object469":
+	{
+	"position": {"Item1":56,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object470":
+	{
+	"position": {"Item1":57,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object471":
+	{
+	"position": {"Item1":58,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object472":
+	{
+	"position": {"Item1":59,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object473":
+	{
+	"position": {"Item1":60,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object474":
+	{
+	"position": {"Item1":61,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object475":
+	{
+	"position": {"Item1":62,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object476":
+	{
+	"position": {"Item1":63,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object477":
+	{
+	"position": {"Item1":64,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object478":
+	{
+	"position": {"Item1":65,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object479":
+	{
+	"position": {"Item1":66,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object480":
+	{
+	"position": {"Item1":67,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object481":
+	{
+	"position": {"Item1":68,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object482":
+	{
+	"position": {"Item1":69,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object483":
+	{
+	"position": {"Item1":70,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object484":
+	{
+	"position": {"Item1":71,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object485":
+	{
+	"position": {"Item1":72,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object486":
+	{
+	"position": {"Item1":73,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object487":
+	{
+	"position": {"Item1":74,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object488":
+	{
+	"position": {"Item1":75,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object489":
+	{
+	"position": {"Item1":76,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object490":
+	{
+	"position": {"Item1":77,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object491":
+	{
+	"position": {"Item1":78,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object492":
+	{
+	"position": {"Item1":79,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object493":
+	{
+	"position": {"Item1":80,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object494":
+	{
+	"position": {"Item1":81,"Item2":-7},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object495":
+	{
+	"position": {"Item1":82,"Item2":-7},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object496":
+	{
+	"position": {"Item1":0,"Item2":-8},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object497":
+	{
+	"position": {"Item1":1,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object498":
+	{
+	"position": {"Item1":2,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object499":
+	{
+	"position": {"Item1":3,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object500":
+	{
+	"position": {"Item1":4,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object501":
+	{
+	"position": {"Item1":5,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object502":
+	{
+	"position": {"Item1":6,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object503":
+	{
+	"position": {"Item1":7,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object504":
+	{
+	"position": {"Item1":8,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object505":
+	{
+	"position": {"Item1":9,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object506":
+	{
+	"position": {"Item1":10,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object507":
+	{
+	"position": {"Item1":11,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object508":
+	{
+	"position": {"Item1":12,"Item2":-8},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object509":
+	{
+	"position": {"Item1":17,"Item2":-8},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object510":
+	{
+	"position": {"Item1":18,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object511":
+	{
+	"position": {"Item1":19,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object512":
+	{
+	"position": {"Item1":20,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object513":
+	{
+	"position": {"Item1":21,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object514":
+	{
+	"position": {"Item1":22,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object515":
+	{
+	"position": {"Item1":23,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object516":
+	{
+	"position": {"Item1":24,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object517":
+	{
+	"position": {"Item1":25,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object518":
+	{
+	"position": {"Item1":26,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object519":
+	{
+	"position": {"Item1":27,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object520":
+	{
+	"position": {"Item1":28,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object521":
+	{
+	"position": {"Item1":29,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object522":
+	{
+	"position": {"Item1":30,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object523":
+	{
+	"position": {"Item1":31,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object524":
+	{
+	"position": {"Item1":32,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object525":
+	{
+	"position": {"Item1":33,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object526":
+	{
+	"position": {"Item1":34,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object527":
+	{
+	"position": {"Item1":35,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object528":
+	{
+	"damage": 2,
+	"health": 6,
+	"position": {"Item1":28,"Item2":-6},
+	"defaultName": "Skeleton",
+	"defaultSpriteId": 316,
+	"decectable": true,
+	"z": -1
+	},
+"Object529":
+	{
+	"position": {"Item1":36,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object530":
+	{
+	"position": {"Item1":37,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object531":
+	{
+	"position": {"Item1":38,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object532":
+	{
+	"position": {"Item1":39,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object533":
+	{
+	"position": {"Item1":40,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object534":
+	{
+	"position": {"Item1":41,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object535":
+	{
+	"position": {"Item1":42,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object536":
+	{
+	"position": {"Item1":43,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object537":
+	{
+	"position": {"Item1":44,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object538":
+	{
+	"position": {"Item1":45,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object539":
+	{
+	"position": {"Item1":46,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object540":
+	{
+	"position": {"Item1":47,"Item2":-8},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object541":
+	{
+	"position": {"Item1":48,"Item2":-8},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object542":
+	{
+	"position": {"Item1":49,"Item2":-8},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object543":
+	{
+	"position": {"Item1":50,"Item2":-8},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object544":
+	{
+	"position": {"Item1":51,"Item2":-8},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object545":
+	{
+	"position": {"Item1":52,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object546":
+	{
+	"position": {"Item1":53,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object547":
+	{
+	"position": {"Item1":54,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object548":
+	{
+	"position": {"Item1":55,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object549":
+	{
+	"position": {"Item1":56,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object550":
+	{
+	"position": {"Item1":57,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object551":
+	{
+	"position": {"Item1":58,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object552":
+	{
+	"position": {"Item1":59,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object553":
+	{
+	"position": {"Item1":60,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object554":
+	{
+	"position": {"Item1":61,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object555":
+	{
+	"position": {"Item1":62,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object556":
+	{
+	"position": {"Item1":63,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object557":
+	{
+	"position": {"Item1":64,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object558":
+	{
+	"position": {"Item1":65,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object559":
+	{
+	"position": {"Item1":66,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object560":
+	{
+	"position": {"Item1":67,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object561":
+	{
+	"position": {"Item1":68,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object562":
+	{
+	"position": {"Item1":69,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object563":
+	{
+	"position": {"Item1":70,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object564":
+	{
+	"position": {"Item1":71,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object565":
+	{
+	"position": {"Item1":72,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object566":
+	{
+	"position": {"Item1":73,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object567":
+	{
+	"position": {"Item1":74,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object568":
+	{
+	"position": {"Item1":75,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object569":
+	{
+	"position": {"Item1":76,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object570":
+	{
+	"position": {"Item1":77,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object571":
+	{
+	"position": {"Item1":78,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object572":
+	{
+	"position": {"Item1":79,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object573":
+	{
+	"position": {"Item1":80,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object574":
+	{
+	"position": {"Item1":81,"Item2":-8},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object575":
+	{
+	"position": {"Item1":82,"Item2":-8},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object576":
+	{
+	"position": {"Item1":0,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object577":
+	{
+	"position": {"Item1":1,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object578":
+	{
+	"position": {"Item1":2,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object579":
+	{
+	"position": {"Item1":3,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object580":
+	{
+	"position": {"Item1":4,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object581":
+	{
+	"position": {"Item1":5,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object582":
+	{
+	"position": {"Item1":6,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object583":
+	{
+	"position": {"Item1":7,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object584":
+	{
+	"position": {"Item1":8,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object585":
+	{
+	"position": {"Item1":9,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object586":
+	{
+	"position": {"Item1":10,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object587":
+	{
+	"position": {"Item1":11,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object588":
+	{
+	"position": {"Item1":12,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object589":
+	{
+	"position": {"Item1":17,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object590":
+	{
+	"position": {"Item1":18,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object591":
+	{
+	"position": {"Item1":19,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object592":
+	{
+	"damage": 2,
+	"health": 6,
+	"position": {"Item1":19,"Item2":-8},
+	"defaultName": "Skeleton",
+	"defaultSpriteId": 316,
+	"decectable": true,
+	"z": -1
+	},
+"Object593":
+	{
+	"position": {"Item1":20,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object594":
+	{
+	"damage": 2,
+	"health": 6,
+	"position": {"Item1":18,"Item2":-6},
+	"defaultName": "Skeleton",
+	"defaultSpriteId": 316,
+	"decectable": true,
+	"z": -1
+	},
+"Object595":
+	{
+	"position": {"Item1":21,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object596":
+	{
+	"position": {"Item1":22,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object597":
+	{
+	"position": {"Item1":23,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object598":
+	{
+	"position": {"Item1":24,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object599":
+	{
+	"position": {"Item1":25,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object600":
+	{
+	"position": {"Item1":26,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object601":
+	{
+	"position": {"Item1":27,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object602":
+	{
+	"position": {"Item1":28,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object603":
+	{
+	"position": {"Item1":29,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object604":
+	{
+	"position": {"Item1":30,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object605":
+	{
+	"position": {"Item1":31,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object606":
+	{
+	"position": {"Item1":32,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object607":
+	{
+	"position": {"Item1":33,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object608":
+	{
+	"position": {"Item1":34,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object609":
+	{
+	"position": {"Item1":35,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object610":
+	{
+	"position": {"Item1":36,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object611":
+	{
+	"position": {"Item1":37,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object612":
+	{
+	"position": {"Item1":38,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object613":
+	{
+	"position": {"Item1":39,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object614":
+	{
+	"position": {"Item1":40,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object615":
+	{
+	"position": {"Item1":41,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object616":
+	{
+	"position": {"Item1":42,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object617":
+	{
+	"position": {"Item1":43,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object618":
+	{
+	"position": {"Item1":44,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object619":
+	{
+	"position": {"Item1":45,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object620":
+	{
+	"position": {"Item1":46,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object621":
+	{
+	"position": {"Item1":47,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object622":
+	{
+	"position": {"Item1":48,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object623":
+	{
+	"position": {"Item1":49,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object624":
+	{
+	"position": {"Item1":50,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object625":
+	{
+	"position": {"Item1":51,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object626":
+	{
+	"position": {"Item1":52,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object627":
+	{
+	"position": {"Item1":53,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object628":
+	{
+	"position": {"Item1":54,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object629":
+	{
+	"position": {"Item1":55,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object630":
+	{
+	"position": {"Item1":56,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object631":
+	{
+	"position": {"Item1":57,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object632":
+	{
+	"position": {"Item1":58,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object633":
+	{
+	"position": {"Item1":59,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object634":
+	{
+	"position": {"Item1":60,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object635":
+	{
+	"position": {"Item1":61,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object636":
+	{
+	"position": {"Item1":62,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object637":
+	{
+	"position": {"Item1":63,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object638":
+	{
+	"position": {"Item1":64,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object639":
+	{
+	"position": {"Item1":65,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object640":
+	{
+	"position": {"Item1":66,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object641":
+	{
+	"position": {"Item1":67,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object642":
+	{
+	"position": {"Item1":68,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object643":
+	{
+	"position": {"Item1":69,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object644":
+	{
+	"position": {"Item1":70,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object645":
+	{
+	"position": {"Item1":71,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object646":
+	{
+	"position": {"Item1":72,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object647":
+	{
+	"position": {"Item1":73,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object648":
+	{
+	"position": {"Item1":74,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object649":
+	{
+	"position": {"Item1":75,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object650":
+	{
+	"position": {"Item1":76,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object651":
+	{
+	"position": {"Item1":77,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object652":
+	{
+	"position": {"Item1":78,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object653":
+	{
+	"position": {"Item1":79,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object654":
+	{
+	"position": {"Item1":80,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object655":
+	{
+	"position": {"Item1":81,"Item2":-9},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object656":
+	{
+	"position": {"Item1":82,"Item2":-9},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object657":
+	{
+	"position": {"Item1":18,"Item2":-10},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object658":
+	{
+	"position": {"Item1":19,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object659":
+	{
+	"position": {"Item1":20,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object660":
+	{
+	"position": {"Item1":21,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object661":
+	{
+	"position": {"Item1":22,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object662":
+	{
+	"position": {"Item1":23,"Item2":-10},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object663":
+	{
+	"position": {"Item1":56,"Item2":-10},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object664":
+	{
+	"position": {"Item1":57,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object665":
+	{
+	"position": {"Item1":58,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object666":
+	{
+	"position": {"Item1":59,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object667":
+	{
+	"position": {"Item1":60,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object668":
+	{
+	"position": {"Item1":61,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object669":
+	{
+	"position": {"Item1":62,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object670":
+	{
+	"position": {"Item1":63,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object671":
+	{
+	"position": {"Item1":64,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object672":
+	{
+	"position": {"Item1":65,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object673":
+	{
+	"position": {"Item1":66,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object674":
+	{
+	"position": {"Item1":67,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object675":
+	{
+	"position": {"Item1":68,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object676":
+	{
+	"position": {"Item1":69,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object677":
+	{
+	"position": {"Item1":70,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object678":
+	{
+	"position": {"Item1":71,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object679":
+	{
+	"position": {"Item1":72,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object680":
+	{
+	"position": {"Item1":73,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object681":
+	{
+	"position": {"Item1":74,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object682":
+	{
+	"position": {"Item1":75,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object683":
+	{
+	"position": {"Item1":76,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object684":
+	{
+	"position": {"Item1":77,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object685":
+	{
+	"position": {"Item1":78,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object686":
+	{
+	"position": {"Item1":79,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object687":
+	{
+	"position": {"Item1":80,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object688":
+	{
+	"position": {"Item1":81,"Item2":-10},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object689":
+	{
+	"position": {"Item1":82,"Item2":-10},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object690":
+	{
+	"position": {"Item1":18,"Item2":-11},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object691":
+	{
+	"position": {"Item1":19,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object692":
+	{
+	"position": {"Item1":20,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object693":
+	{
+	"position": {"Item1":21,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object694":
+	{
+	"position": {"Item1":22,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object695":
+	{
+	"position": {"Item1":23,"Item2":-11},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object696":
+	{
+	"position": {"Item1":56,"Item2":-11},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object697":
+	{
+	"position": {"Item1":57,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object698":
+	{
+	"position": {"Item1":58,"Item2":-11},
+	"defaultName": "Potion",
+	"defaultSpriteId": 656,
+	"decectable": false,
+	"z": -1
+	},
+"Object699":
+	{
+	"position": {"Item1":58,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object700":
+	{
+	"position": {"Item1":59,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object701":
+	{
+	"position": {"Item1":60,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object702":
+	{
+	"position": {"Item1":61,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object703":
+	{
+	"position": {"Item1":62,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object704":
+	{
+	"position": {"Item1":63,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object705":
+	{
+	"position": {"Item1":64,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object706":
+	{
+	"position": {"Item1":65,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object707":
+	{
+	"position": {"Item1":66,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object708":
+	{
+	"position": {"Item1":67,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object709":
+	{
+	"position": {"Item1":68,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object710":
+	{
+	"position": {"Item1":69,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object711":
+	{
+	"position": {"Item1":70,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object712":
+	{
+	"position": {"Item1":71,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object713":
+	{
+	"position": {"Item1":72,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object714":
+	{
+	"position": {"Item1":73,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object715":
+	{
+	"position": {"Item1":74,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object716":
+	{
+	"position": {"Item1":75,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object717":
+	{
+	"position": {"Item1":76,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object718":
+	{
+	"position": {"Item1":77,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object719":
+	{
+	"position": {"Item1":78,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object720":
+	{
+	"position": {"Item1":79,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object721":
+	{
+	"position": {"Item1":80,"Item2":-11},
+	"defaultName": "Potion",
+	"defaultSpriteId": 656,
+	"decectable": false,
+	"z": -1
+	},
+"Object722":
+	{
+	"position": {"Item1":80,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object723":
+	{
+	"position": {"Item1":81,"Item2":-11},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object724":
+	{
+	"position": {"Item1":82,"Item2":-11},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object725":
+	{
+	"position": {"Item1":18,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object726":
+	{
+	"position": {"Item1":19,"Item2":-12},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object727":
+	{
+	"position": {"Item1":20,"Item2":-12},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object728":
+	{
+	"position": {"Item1":21,"Item2":-12},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object729":
+	{
+	"position": {"Item1":22,"Item2":-12},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object730":
+	{
+	"position": {"Item1":23,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object731":
+	{
+	"position": {"Item1":56,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object732":
+	{
+	"position": {"Item1":57,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object733":
+	{
+	"position": {"Item1":58,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object734":
+	{
+	"position": {"Item1":59,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object735":
+	{
+	"position": {"Item1":60,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object736":
+	{
+	"position": {"Item1":61,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object737":
+	{
+	"position": {"Item1":62,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object738":
+	{
+	"position": {"Item1":63,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object739":
+	{
+	"position": {"Item1":64,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object740":
+	{
+	"position": {"Item1":65,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object741":
+	{
+	"position": {"Item1":66,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object742":
+	{
+	"position": {"Item1":67,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object743":
+	{
+	"position": {"Item1":68,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object744":
+	{
+	"position": {"Item1":69,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object745":
+	{
+	"position": {"Item1":70,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object746":
+	{
+	"position": {"Item1":71,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object747":
+	{
+	"position": {"Item1":72,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object748":
+	{
+	"position": {"Item1":73,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object749":
+	{
+	"position": {"Item1":74,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object750":
+	{
+	"position": {"Item1":75,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object751":
+	{
+	"position": {"Item1":76,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object752":
+	{
+	"position": {"Item1":77,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object753":
+	{
+	"position": {"Item1":78,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object754":
+	{
+	"position": {"Item1":79,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object755":
+	{
+	"position": {"Item1":80,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object756":
+	{
+	"position": {"Item1":81,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object757":
+	{
+	"position": {"Item1":82,"Item2":-12},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object758":
+	{
+	"position": {"Item1":16,"Item2":-13},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object759":
+	{
+	"position": {"Item1":17,"Item2":-13},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object760":
+	{
+	"position": {"Item1":18,"Item2":-13},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object761":
+	{
+	"position": {"Item1":19,"Item2":-13},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object762":
+	{
+	"position": {"Item1":20,"Item2":-13},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object763":
+	{
+	"position": {"Item1":21,"Item2":-13},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object764":
+	{
+	"position": {"Item1":22,"Item2":-13},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object765":
+	{
+	"position": {"Item1":23,"Item2":-13},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object766":
+	{
+	"position": {"Item1":24,"Item2":-13},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object767":
+	{
+	"position": {"Item1":25,"Item2":-13},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object768":
+	{
+	"position": {"Item1":16,"Item2":-14},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object769":
+	{
+	"position": {"Item1":17,"Item2":-14},
+	"defaultName": "Potion",
+	"defaultSpriteId": 656,
+	"decectable": false,
+	"z": -1
+	},
+"Object770":
+	{
+	"position": {"Item1":17,"Item2":-14},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object771":
+	{
+	"position": {"Item1":18,"Item2":-14},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object772":
+	{
+	"position": {"Item1":19,"Item2":-14},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object773":
+	{
+	"position": {"Item1":20,"Item2":-14},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object774":
+	{
+	"position": {"Item1":21,"Item2":-14},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object775":
+	{
+	"position": {"Item1":22,"Item2":-14},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object776":
+	{
+	"position": {"Item1":23,"Item2":-14},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object777":
+	{
+	"position": {"Item1":24,"Item2":-14},
+	"defaultName": "Potion",
+	"defaultSpriteId": 656,
+	"decectable": false,
+	"z": -1
+	},
+"Object778":
+	{
+	"position": {"Item1":24,"Item2":-14},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object779":
+	{
+	"position": {"Item1":25,"Item2":-14},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object780":
+	{
+	"position": {"Item1":16,"Item2":-15},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object781":
+	{
+	"position": {"Item1":17,"Item2":-15},
+	"defaultName": "Potion",
+	"defaultSpriteId": 656,
+	"decectable": false,
+	"z": -1
+	},
+"Object782":
+	{
+	"position": {"Item1":17,"Item2":-15},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object783":
+	{
+	"position": {"Item1":18,"Item2":-15},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object784":
+	{
+	"position": {"Item1":19,"Item2":-15},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object785":
+	{
+	"position": {"Item1":20,"Item2":-15},
+	"defaultName": "Key",
+	"defaultSpriteId": 559,
+	"decectable": false,
+	"z": -1
+	},
+"Object786":
+	{
+	"position": {"Item1":20,"Item2":-15},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object787":
+	{
+	"position": {"Item1":21,"Item2":-15},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object788":
+	{
+	"position": {"Item1":22,"Item2":-15},
+	"defaultName": "Floor",
+	"defaultSpriteId": 4,
+	"decectable": false,
+	"z": 0
+	},
+"Object789":
+	{
+	"position": {"Item1":23,"Item2":-15},
+	"defaultName": "Helm",
+	"defaultSpriteId": 31,
+	"decectable": false,
+	"z": -1
+	},
+"Object790":
+	{
+	"position": {"Item1":23,"Item2":-15},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object791":
+	{
+	"position": {"Item1":24,"Item2":-15},
+	"defaultName": "Floor",
+	"defaultSpriteId": 5,
+	"decectable": false,
+	"z": 0
+	},
+"Object792":
+	{
+	"position": {"Item1":25,"Item2":-15},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object793":
+	{
+	"position": {"Item1":16,"Item2":-16},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object794":
+	{
+	"position": {"Item1":17,"Item2":-16},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object795":
+	{
+	"position": {"Item1":18,"Item2":-16},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object796":
+	{
+	"position": {"Item1":19,"Item2":-16},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object797":
+	{
+	"position": {"Item1":20,"Item2":-16},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object798":
+	{
+	"position": {"Item1":21,"Item2":-16},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object799":
+	{
+	"position": {"Item1":22,"Item2":-16},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object800":
+	{
+	"position": {"Item1":23,"Item2":-16},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object801":
+	{
+	"position": {"Item1":24,"Item2":-16},
+	"defaultName": "Wall",
+	"defaultSpriteId": 825,
+	"decectable": true,
+	"z": 0
+	},
+"Object802":
+	{
+	"position": {"Item1":25,"Item2":-16},
 	"defaultName": "Wall",
 	"defaultSpriteId": 825,
 	"decectable": true,

@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System;
+using DungeonCrawl.Actors.Static;
+using DungeonCrawl.Core;
 using Random = UnityEngine.Random;
 
 namespace DungeonCrawl.Actors.Characters
@@ -46,6 +48,10 @@ namespace DungeonCrawl.Actors.Characters
         protected override void OnDeath()
         {
             Debug.Log("Well, I was already dead anyway...");
+            ActorManager.Singleton.Spawn<Bonepile>(this.Position);
+            _spriteRenderer = GetComponent<SpriteRenderer>();
+            ActorManager.Singleton.ColorTile("Bonepile", Color.white);
+            SetSprite(DefaultSpriteId);
         }
 
         public override int DefaultSpriteId => 316;

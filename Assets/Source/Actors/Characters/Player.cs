@@ -6,6 +6,7 @@ using DungeonCrawl.Core;
 using UnityEngine;
 using Assets.Source.Actors.Static;
 using Assets.Source.Actors.Inventory;
+using UnityEngine.SceneManagement;
 using UnityEngine.Playables;
 
 
@@ -19,6 +20,8 @@ namespace DungeonCrawl.Actors.Characters
         private int _killCount;
 
         private bool doorIsLocked = true;
+        private bool isQuestOk = false;
+        private bool _hasBeastSlayer = false;
 
         private const int _heal = 5;
         private SfxPlayer _soundPlayer;
@@ -91,7 +94,12 @@ namespace DungeonCrawl.Actors.Characters
                 
             }
 
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            }
 
+            
             CameraController.Singleton.Position = Position;
             UserInterface.Singleton.SetText($"Hp: {Health}", Assets.Source.Core.UserInterface.TextPosition.BottomLeft);
             UserInterface.Singleton.SetText($"Inventory:\n {Inventory.ToString()}", Assets.Source.Core.UserInterface.TextPosition.TopLeft);
@@ -120,6 +128,7 @@ namespace DungeonCrawl.Actors.Characters
 
         protected override void OnDeath()
         {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
             Debug.Log("YOU DIED");
         }
 
@@ -154,6 +163,7 @@ namespace DungeonCrawl.Actors.Characters
                             var value = TryToPickUpKey(item);
                             return value;
                         }
+                        EquipItem(item);
                         ActorManager.Singleton.DestroyActor(item);
                         return item;
                     }
@@ -184,7 +194,14 @@ namespace DungeonCrawl.Actors.Characters
 
         public void DoDamage(Character anotherCharacter)
         {
-            anotherCharacter.ApplyDamage(Damage);
+            int additionalDamage = 0;
+
+            if (_hasBeastSlayer)
+            {
+                additionalDamage = 10;
+            }
+
+            anotherCharacter.ApplyDamage(Damage + additionalDamage);
             if (anotherCharacter.Health > 0)
             {
                 ApplyDamage(anotherCharacter.Damage);
@@ -239,6 +256,7 @@ namespace DungeonCrawl.Actors.Characters
             if (_killCount == 4)
             {
                 UserInterface.Singleton.RemoveTopCenterText();
+                isQuestOk = true;
             }
         }
         
@@ -247,7 +265,7 @@ namespace DungeonCrawl.Actors.Characters
         {
             string questDescription = $"Current quest: Kill 3 skeletons to get the key!";
 
-            if (_killCount == 4)
+            if (isQuestOk)
             {
                 ActorManager.Singleton.DestroyActor(item);
                 return item;
@@ -255,7 +273,37 @@ namespace DungeonCrawl.Actors.Characters
             UserInterface.Singleton.SetText(questDescription, Assets.Source.Core.UserInterface.TextPosition.TopCenter);
             return null;
         }
-        
+
+        public void EquipItem(Item item)
+        {
+            if (item.DefaultName == "Stick")
+            {
+                this.SetSprite(25);
+            }
+            if (item.DefaultName == "Armor")
+            {
+                EquipShield();
+                this.SetSprite(26);
+            }
+            if (item.DefaultName == "Helm")
+            {
+                EquipHelm();
+                isQuestOk = true;
+                this.SetSprite(27);
+            }
+            if (item.DefaultName == "BeastSlayer")
+            {
+                EquipBeastSlayer();
+                this.SetSprite(28);
+            }
+        }
+
+        public void EquipBeastSlayer()
+        {
+            _hasBeastSlayer = true;
+        }
+
+
     }
 
 }

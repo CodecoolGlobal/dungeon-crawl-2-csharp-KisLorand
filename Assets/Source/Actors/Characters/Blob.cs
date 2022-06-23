@@ -27,6 +27,11 @@ namespace Assets.Source.Actors.Characters
         protected override void OnDeath()
         {
             Debug.Log("Well, I was already blobblib anyway...");
+
+            ActorManager.Singleton.Spawn<Blood>(this.Position);
+            _spriteRenderer = GetComponent<SpriteRenderer>();
+            ActorManager.Singleton.ColorTile("Blood", Color.red);
+            SetSprite(DefaultSpriteId);
         }
 
         public override bool OnCollision(Actor anotherActor)

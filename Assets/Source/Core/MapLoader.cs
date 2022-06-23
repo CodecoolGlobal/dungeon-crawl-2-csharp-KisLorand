@@ -75,7 +75,7 @@ namespace DungeonCrawl.Core
                     ActorManager.Singleton.Spawn<Floor>(position);
                     break;
                 case 'a':
-                    ActorManager.Singleton.Spawn<Axe>(position);
+                    ActorManager.Singleton.Spawn<Stick>(position);
                     ActorManager.Singleton.Spawn<Floor>(position);
                     break;
                 case 'h':
@@ -96,6 +96,30 @@ namespace DungeonCrawl.Core
                     break;
                 case 'D':
                     ActorManager.Singleton.Spawn<Pig>(position);
+                    ActorManager.Singleton.Spawn<Floor>(position);
+                    break;
+                case 'S':
+                    ActorManager.Singleton.Spawn<Armor>(position);
+                    ActorManager.Singleton.Spawn<Floor>(position);
+                    break;
+                case 'H':
+                    ActorManager.Singleton.Spawn<Helm>(position);
+                    ActorManager.Singleton.Spawn<Floor>(position);
+                    break;
+                case 'B':
+                    ActorManager.Singleton.Spawn<PigBoss>(position);
+                    ActorManager.Singleton.Spawn<Floor>(position);
+                    break;
+                case 'F':
+                    ActorManager.Singleton.Spawn<BossFog>(position);
+                    ActorManager.Singleton.Spawn<Floor>(position);
+                    break;
+                case 'f':
+                    ActorManager.Singleton.Spawn<BossDoor>(position);
+                    ActorManager.Singleton.Spawn<Floor>(position);
+                    break;
+                case 'X':
+                    ActorManager.Singleton.Spawn<BeastSlayer>(position);
                     ActorManager.Singleton.Spawn<Floor>(position);
                     break;
                 case ' ':
@@ -134,9 +158,6 @@ namespace DungeonCrawl.Core
                     case "Key":
                         ActorManager.Singleton.Spawn<Key>(position);
                         break;
-                    case "Axe":
-                        ActorManager.Singleton.Spawn<Axe>(position);
-                        break;
                     case "Potion":
                         ActorManager.Singleton.Spawn<Potion>(position);
                         break;
@@ -151,6 +172,39 @@ namespace DungeonCrawl.Core
                         break;
                     case "Pig":
                         ActorManager.Singleton.Spawn<Pig>(position);
+                        break;
+                    case "Stick":
+                        ActorManager.Singleton.Spawn<Stick>(position);
+                        break;
+                    case "Armor":
+                        ActorManager.Singleton.Spawn<Armor>(position);
+                        break;
+                    case "Helm":
+                        ActorManager.Singleton.Spawn<Helm>(position);
+                        break;
+                    case "PigBoss":
+                        ActorManager.Singleton.Spawn<PigBoss>(position);
+                        break;
+                    case "BossFog":
+                        ActorManager.Singleton.Spawn<BossFog>(position);
+                        break;
+                    case "BossDoor":
+                        ActorManager.Singleton.Spawn<BossDoor>(position);
+                        break;
+                    case "BeastSlayer":
+                        ActorManager.Singleton.Spawn<BeastSlayer>(position);
+                        break;
+                    case "Bonepile":
+                        ActorManager.Singleton.Spawn<Bonepile>(position);
+                        break;
+                    case "Blood":
+                        ActorManager.Singleton.Spawn<Blood>(position);
+                        break;
+                    case "Lava":
+                        ActorManager.Singleton.Spawn<Lava>(position);
+                        break;
+                    case "Fire":
+                        ActorManager.Singleton.Spawn<Fire>(position);
                         break;
                     case " ":
                         break;
