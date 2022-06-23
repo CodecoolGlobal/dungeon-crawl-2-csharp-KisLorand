@@ -11,8 +11,7 @@ namespace DungeonCrawl.Actors.Items
 {
     public abstract class Item : Actor
     {
-        protected abstract void OnPickUp();
-
+       
         public override int Z => -1;
 
         

@@ -1,5 +1,6 @@
 ﻿using DungeonCrawl.Core;
 using UnityEngine;
+using Random = System.Random;
 
 namespace DungeonCrawl.Actors.Characters
 {
@@ -22,12 +23,19 @@ namespace DungeonCrawl.Actors.Characters
 
         public void ApplyDamage(int damage)
         {
-            Health -= damage;
+            int damageModifier = Utilities.GetRandomNumberWithinRange(0, 3);
+            int totalDamage = damage + damageModifier;
+            if (totalDamage < 0)
+            {
+                totalDamage = 0;
+            }
+            Health -= totalDamage;
             Debug.Log($"Damage!!! {DefaultName} hp: {Health}");
             if (Health <= 0)
             {
                 // Die
                 OnDeath();
+                
 
                 ActorManager.Singleton.DestroyActor(this);
             }
@@ -55,6 +63,7 @@ namespace DungeonCrawl.Actors.Characters
             }
             return true;
         }
-	}
+
+    }
         
 }
